@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Porjecte2 - Sign In</title>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="index.html"><img src="image/logo.png" alt=""></a>
+        </div>
+    </header>
+
+    <main class="formularios">
+        <form>
+            <h2 class="title">Sign in</h2>
+            
+            <div class="input-div">
+                <label for="email">Email address</label>
+                <input type="text" name="email" id="email" placeholder="Email address" required>
+            </div>
+
+            <div class="input-div">
+                <label for="password" class="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter password" required>
+            </div>
+
+             <div class="flex">
+                <div class="signed">
+                    <div>
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </div>
+                    <label for="checkbox">Keep me signed in</label>
+                </div>
+                <a href="forgot-password.html" class="link">Forgot password?</a>
+            </div>
+
+            <button class="send">Continue with email</button>
+            
+            <div class="divisor">
+                <hr>
+                <p>or use one of these options</p>
+                <hr>
+            </div>
+            
+            <button class="google"><img src="image/google.png" alt="google">Continue with Google</button>
+            <button class="facebook"><img src="image/facebook.png" alt="Facebook">Continue with Facebook</button>
+            
+            <p>Don’t have an account? <a href="register.html" class="link">Register</a></p>
+        </form>
+    </main>
+
+</body>
+</html>

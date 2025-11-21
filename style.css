@@ -1,0 +1,418 @@
+/* Fuentes */
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: url("./fonts/SF-Pro-Display-Regular.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: url("./fonts/SF-Pro-Display-Medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: url("./fonts/SF-Pro-Display-Semibold.otf") format("opentype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SF Pro Display";
+	src: url("./fonts/SF-Pro-Display-Bold.otf") format("opentype");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #1e1e1e;
+    font-family: "SF Pro Display", sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    margin: auto;
+    background-color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: #2f80ed;
+}
+
+
+
+
+
+/* Header Style */
+
+header{
+    height: 68px;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    margin-top: 4px;
+    flex-grow: 1;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 48px;
+}
+
+
+header ul *{
+    color: black;
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    gap: 10px;
+}
+
+header .navegacion{
+    margin-bottom: 1px;
+    margin-left: 24px;
+}
+
+header .navegacion li{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
+header nav h2{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+
+}
+
+
+.register-button{
+    width: 90px;
+    height: 38px;
+    text-align: center;
+    align-content: center;
+    border-radius: 6.5px;
+    text-decoration: none;
+    border: 1px solid rgba(47, 128, 237, 1);
+    color: rgba(47, 128, 237, 1);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.52px;
+
+}
+
+.sing-button{
+    width: 80px;
+    height: 38px;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 1px solid rgba(47, 128, 237, 1);
+    background-color: rgba(47, 128, 237, 1);
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.52px;
+}
+
+
+
+
+
+
+
+
+
+main{
+    margin: 0px 100px;
+    background-color: white;
+}
+
+
+/* Index Main */
+
+
+
+
+
+
+
+
+
+
+/* Formularios Main */
+
+.formularios form{
+    height: 766.5px;
+    margin: auto;
+    margin-top: 94px;
+    max-width: 400px;
+}
+
+.formularios .check{
+    height: 769px;
+    margin: auto;
+    margin-top: 94px;
+    max-width: 400px;
+}
+
+
+.formularios form .photo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 38px;
+    margin-top: -2px;
+}
+
+.formularios form .inbox{
+    background-color: rgba(254, 226, 101, 0.3);
+    padding: 25px 40px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+.formularios form .title{
+    margin-bottom: 43px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.formularios form .title-forgot{
+    padding-top: 60px;
+    margin-bottom: 43px;
+    font-weight: 500;
+    font-size: 29px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.formularios form .subtitle{
+    margin-top: -29px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+.formularios form .input-div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.formularios form .input-div label{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.52px;
+    padding-bottom: 6px;
+}
+
+.formularios form .input-div input::placeholder{
+    color: transparent;
+}
+
+.formularios form .input-div input:focus::placeholder{
+    color: gray;
+}
+
+.formularios form .input-div input{
+    height: 44px;
+    border: 1px;
+    border-radius: 4px;
+    background-color: rgba(242, 242, 242, 1);
+    padding-left: 13px;
+}
+
+.formularios form .input-div input:focus{
+    height: 44px;
+    border: 1px;
+    border-radius: 4px;
+    border:  #2f80ed;
+    background-color: rgb(255, 255, 255);
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+}
+
+.formularios form .input-div .password{
+    margin-top: -8px;
+}
+
+.formularios .flex{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.formularios .flex .signed{
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    color: gray;
+}
+
+.formularios .flex .signed label{
+    padding-left: 8px;
+}ç
+
+.formularios .flex .signed p{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+
+.formularios .flex #checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+.formularios form .send{
+    width: 100%;
+    height: 44px;
+    border: 1px;
+    border-radius: 6px;
+    background-color: rgba(47, 128, 237, 1);
+    color: white;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14.5px;
+    line-height: 20px;
+    letter-spacing: 0.42px;
+    cursor: pointer;
+}
+
+/* DIVISOR */
+
+.formularios form .divisor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 27px 0;
+}
+
+.formularios form .divisor p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.32px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.formularios form .google{
+    width: 100%;
+    height: 44px;
+    border: 0.5px solid rgb(219, 219, 219);
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.formularios form .google img{
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.formularios form .facebook{
+    width: 100%;
+    height: 44px;
+    margin-bottom: 62px;
+    border: 0.5px solid rgba(71, 89, 147, 1);
+    border-radius: 6px;
+    background-color: rgba(71, 89, 147, 1);
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    cursor: pointer;
+}
+
+.formularios form .facebook img{
+    margin-bottom: -5px;
+    margin-right: 10px;
+}
+
+.formularios form .divisor hr{
+    border: 0px;
+    width: 102px;
+    height: 1px;
+    background-color: rgb(196, 196, 196);
+}
+
+.formularios p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+.formularios .terms-text{
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.32px;
+    margin-top: 30px;
+}
+
+/* Fin Formularios */
