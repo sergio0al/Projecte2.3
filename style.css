@@ -44,6 +44,7 @@
 html{
     background-color: #1e1e1e;
     font-family: "SF Pro Display", sans-serif;
+    scrollbar-width: none;
 }
 
 body{
@@ -166,7 +167,7 @@ main{
     height: 500px;
     text-align: center;
     color: white;
-    background-image: url(image/welcome.png);
+    background-image: url(images/welcome.png);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -188,15 +189,128 @@ main{
     letter-spacing: 0.80px;
 }
 
+
+/* Search */
+
 .index .search{
     position: relative;    
-    z-index: 10;           
+    z-index: 10;
+    align-content: center;
     height: 64px;
     margin: -44px 105px 0 105px;
     border-radius: 8px;
     box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.15);
     background-color: white;
 }
+
+.index .search form{
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+.index .search input{
+    padding-left: 20px;
+    border-radius: 4px;
+    border: 1px;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.index .search input:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+.index .search .date{
+    padding-right: 20px;
+    width: 130px;
+    height: 43px;
+}
+
+.index .search .location{
+    width: 240px;
+    height: 43px;
+}
+
+.index .search .guest{
+    width: 190px;
+    height: 43px;
+}
+
+.index .search button{
+    width: 148px;
+    height: 44px;
+    border-radius: 6px;
+    color: white;
+    background-color: #2f80ed;
+    border: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+}
+
+
+
+/* Warning Style*/
+
+.warning{
+    height: 72px;
+    margin: 50px 0 50px 0;
+    border-radius: 8px;
+    background-color: rgba(252, 239, 202, 1);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 24px;
+    letter-spacing: 0.32px;
+}
+
+.warning p{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    padding-left: 3px;
+}
+
+
+/* Card Style */
+
+.index .title-card{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 16px;
+    margin-top: -1px;
+}
+
+.index .subtitle-card{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+    margin-bottom: 28px;
+}
+
+.index .section-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.index .section-cards .name{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.index .section-cards .properties{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.32px;
+}
+
+
 
 
 
