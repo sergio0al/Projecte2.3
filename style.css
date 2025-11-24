@@ -283,6 +283,10 @@ main{
     margin-top: -1px;
 }
 
+.index #PopularHotels{
+    margin-bottom: 23px;
+}
+
 .index .subtitle-card{
     font-weight: 400;
     font-size: 16px;
@@ -346,6 +350,8 @@ main{
     padding-top: 11px;
     margin-bottom: -2px;
 }
+
+
 
 
 
