@@ -652,3 +652,83 @@ main{
 }
 
 /* Fin Formularios */
+
+
+
+
+/* Footer */
+
+footer{
+    margin: 0px 100px;
+}
+
+footer .title-footer h2{
+    margin-top: 77px;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer .title-footer p{
+    margin-bottom: 81px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+footer  nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer nav ul{
+    list-style: none;
+    width: 25%;
+    margin-left: 61px;
+}
+
+footer nav ul h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    margin-bottom: 20px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: rgba(79, 79, 79, 1);
+}
+
+footer nav ul li{
+    margin-bottom: 14px;
+    color: rgba(79, 79, 79, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.32;
+}
+
+footer #footer-footo{
+    margin-right: 21px;
+    margin-left: 0px;
+}
+
+footer #footer-footo li{
+    width: 197px;
+    margin-left: 28px;
+    line-height: 20px;
+}
+
+footer .copy{
+    height: 40px;
+    background-color: rgba(235, 235, 235, 1);
+    margin: 0 -100px;
+    margin-top: 44px;
+}
