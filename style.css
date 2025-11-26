@@ -90,6 +90,7 @@ header ul *{
 }
 
 header nav{
+    align-items: center;
     display: flex;
     gap: 10px;
 }
@@ -111,6 +112,18 @@ header nav h2{
     font-size: 18px;
     line-height: 100%;
 
+}
+
+
+header .notify{
+    margin-top: 0px;
+    margin-right: 2px;
+    margin-left: 94px;
+}
+
+header .avatar{
+    margin-bottom: 5px;
+    margin-left: 10px;
 }
 
 
