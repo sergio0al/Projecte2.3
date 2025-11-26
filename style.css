@@ -715,6 +715,11 @@ footer nav ul li{
     letter-spacing: 0.32;
 }
 
+footer nav ul li a:hover{
+    color: #9bc5fd ;
+    transition: color 0.3s ease;
+}
+
 footer #footer-footo{
     margin-right: 21px;
     margin-left: 0px;
@@ -731,4 +736,19 @@ footer .copy{
     background-color: rgba(235, 235, 235, 1);
     margin: 0 -100px;
     margin-top: 44px;
+    align-content: center;
+    text-align: right;
+}
+
+footer .copy p{
+    margin-right: 205px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+footer .copy span{
+    font-size: 19px;
+    margin-right: 3px;
 }
