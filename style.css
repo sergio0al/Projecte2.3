@@ -302,6 +302,10 @@ main{
     margin-bottom: 61px;
 }
 
+.index .section-cards img{
+    cursor: pointer;
+}
+
 .index .section-cards .name{
     margin-top: 10px;
     font-weight: 600;
@@ -326,6 +330,7 @@ main{
 
 .index .travel-inspirations img{
     position: absolute;
+    cursor: pointer;
 }
 
 .index .travel-inspirations div{
@@ -335,6 +340,7 @@ main{
     position: relative;
     align-content: end;
     color: white;
+    cursor: pointer;
 }
 
 .index .travel-inspirations div h4{
