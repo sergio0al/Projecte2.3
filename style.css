@@ -64,6 +64,28 @@ body{
 
 /* Header Style */
 
+.header-div{
+    background: linear-gradient(180deg, #2969BF 0%, #144E9D 100%);
+    height: 200px;
+}
+
+header .navegacion2{
+    text-decoration: none;
+    margin-bottom: 1px;
+    margin-left: 24px;
+}
+
+
+header .navegacion2 *{
+    color: white;
+}
+
+header .navegacion2 li{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+
 header{
     height: 68px;
     margin: 0 100px;
@@ -205,7 +227,13 @@ main{
 
 /* Search */
 
-.index .search{
+.result .search{
+    position: absolute;
+    top: 212px;
+    width: 1030px;
+}
+
+.search{
     position: relative;    
     z-index: 10;
     align-content: center;
@@ -216,41 +244,41 @@ main{
     background-color: white;
 }
 
-.index .search form{
+.search form{
     padding-left: 12px;
     width: 100%;
     display: flex;
     gap: 12px;
 }
 
-.index .search input{
+.search input{
     padding-left: 20px;
     border-radius: 4px;
     border: 1px;
     background-color: rgba(242, 242, 242, 1);
 }
 
-.index .search input:focus{
+.search input:focus{
     background-color: rgb(255, 255, 255);
 }
 
-.index .search .date{
+.search .date{
     padding-right: 20px;
     width: 130px;
     height: 43px;
 }
 
-.index .search .location{
+.search .location{
     width: 240px;
     height: 43px;
 }
 
-.index .search .guest{
+.search .guest{
     width: 190px;
     height: 43px;
 }
 
-.index .search button{
+.search button{
     width: 148px;
     height: 44px;
     border-radius: 6px;
@@ -408,6 +436,20 @@ main{
     margin-left: -198px;
 }
 
+
+
+
+
+/* Search */
+
+.flex-main{
+    margin-top: 72px;
+    display: flex;
+}
+
+.filters{
+    width: 295px;
+}
 
 
 
