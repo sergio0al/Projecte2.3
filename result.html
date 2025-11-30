@@ -44,20 +44,26 @@
 
         <div class="flex-main">
             <section class="filters">
-                <article class="filter-name">
-                    <h4>Search by propery name</h4>
-                    <input type="text" name="Name" id="name" placeholder="eg. Beach westpalm">
-                </article>
-                <h5></h5>
-                <section>
-                    <article class="filter-price">
+                <form>
+                    <fieldset>
+                        <label for="name">Search by property name</label>
+                        <input type="text" name="Name" id="name" placeholder="eg. Beach westpalm">
+                    </fieldset>
 
-                    </article>
-                    <article class="filter-rating">
-                        <h4></h4>
-                        <input type="checkbox" name="">
-                    </article>
-                </section>
+                    <h3>Filter by</h3>
+
+                    <fieldset>
+                        <legend>Your budget per day</legend>
+                        
+                        <input type="checkbox" name="Budget1" id="budget1">
+                        <label for="budget1">$ 0 - $ 200</label>
+
+                        <br>
+
+                        <input type="checkbox" name="Budget2" id="budget2">
+                        <label for="budget2">$ 200 - $ 500</label>
+                    </fieldset>
+                </form>
             </section>
 
             <div class="result-cards">
