@@ -717,6 +717,61 @@ main{
 
 
 
+
+
+/* Searching */
+
+
+fieldset label{
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+
+.result{
+    margin-top: 105px;
+}
+
+.result .search-name input[type='text']{
+    width: 259px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.search-name{
+    width: 295px;
+    height: 119px;
+    background-color: rgba(242, 242, 242, 1);
+    border: 0px solid rgba(224, 224, 224, 1);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 21px 0px 21px 18px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Footer */
 
 footer{
