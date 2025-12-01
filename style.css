@@ -731,7 +731,7 @@ fieldset label{
 }
 
 .result{
-    margin-top: 105px;
+    margin-top: 104px;
 }
 
 .result .search-name input[type='text']{
@@ -753,8 +753,49 @@ fieldset label{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 21px 0px 21px 18px;
+    padding: 22px 0px 21px 18px;
     box-sizing: border-box;
+}
+
+
+/* Filter By */
+
+
+.title-filter{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+    margin: 22px 0 21px 18px;
+    color: gray;
+}
+
+
+.filter{
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 6px;
+}
+
+.filter .legend{
+    width: 293px;
+    height: 54px;
+    box-sizing: border-box;
+    background-color: rgba(242, 242, 242, 1);
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    padding: 19px 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+
+.filter .content{
+    margin: 18px 18px;
+}
+
+.filter .content div{
+    display: flex;
+    justify-content: space-between;
 }
 
 
