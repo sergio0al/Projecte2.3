@@ -57,32 +57,58 @@
 
                         <div class="content">
                             
-                            <input type="checkbox" name="Budget1" id="budget1">
-                            <label for="budget1">$ 0 - $ 200</label>
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget1" id="budget1">
+                                    <label for="budget1">$ 0 - $ 200</label>
+                                </div>
+                                <div>
+                                    <p>200</p>
+                                </div>
+                            </div>
 
-                            <br>
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget2" id="budget2">
+                                    <label for="budget2">$ 200 - $ 500</label>
+                                </div>
+                                <div>
+                                    <p>100</p>
+                                </div>
+                            </div>
 
-                            <input type="checkbox" name="Budget2" id="budget2">
-                            <label for="budget2">$ 200 - $ 500</label>
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget3" id="budget3">
+                                    <label for="budget3">$ 500 - $ 1,000</label>
+                                </div>
+                                <div>
+                                    <p>15</p>
+                                </div>
+                            </div>
 
-                            <br>
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget4" id="budget4">
+                                    <label for="budget4">$ 1,000 - $ 2,000</label>
+                                </div>
+                                <div>
+                                    <p>12</p>
+                                </div>
+                            </div>
 
-                            <input type="checkbox" name="Budget3" id="budget3">
-                            <label for="budget3">$ 500 - $ 1,000</label>
 
-                            <br>
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget5" id="budget5">
+                                    <label for="budget4">$ 2,000 - $ 5,000</label>
+                                </div>
+                                <div>
+                                    <p>230</p>
+                                </div>
+                            </div>
 
-                            <input type="checkbox" name="Budget4" id="budget4">
-                            <label for="budget4">$ 1,000 - $ 2,000</label>
-
-                            <br>
-
-                            <input type="checkbox" name="Budget5" id="budget5">
-                            <label for="budget4">$ 2,000 - $ 5,000</label>
-                            
-                            <br>
-
-                            <div>
+                            <div class="own-budget">
                                 <label>Set your own budget</label>
                                 <img src="images/icons/slider.png" alt="slider">
                             </div>
@@ -91,9 +117,11 @@
 
 
                     <fieldset class="filter">
-                        <h3 class="legend">Ratings</h3>
+                        <h3 class="legend">Rating</h3>
 
-                        <label>Show only ratings</label>
+                        <div id="title-stars">
+                            <label>Show only ratings more than</label>
+                        </div>
                         <div class="stars">
                             <div>
                                 <p>1</p>

@@ -774,6 +774,37 @@ fieldset label{
 .filter{
     border: 1px solid rgba(224, 224, 224, 1);
     border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.filter p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+}
+
+.filter label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    box-sizing: border-box;
+}
+
+.range-money div{
+    display: flex;
+    align-items: center;
+}
+
+.range-money label{
+    margin-left: 8px;
+}
+
+.filter input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
 }
 
 .filter .legend{
@@ -790,15 +821,64 @@ fieldset label{
 }
 
 .filter .content{
-    margin: 18px 18px;
+    margin: 18px 19px 17px 17px;
 }
 
-.filter .content div{
+.filter .content .range-money{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+
+.own-budget{
+    margin-top: 23px;
     display: flex;
     justify-content: space-between;
 }
 
+.own-budget img{
+    margin-top: -5px;
+}
 
+
+.stars{
+    display: flex;
+    justify-content: center;
+    margin: 0 21px 0 16px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.stars div{
+    width: 50px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+#title-stars{
+    margin-top: 18px;
+    margin-bottom: 7px;
+    margin-left: 17px;
+    letter-spacing: 0.64px;
+}
+
+.stars div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+}
+
+.stars div img{
+    width: 18px;
+    height: 18px;
+}
 
 
 
