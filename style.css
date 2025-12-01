@@ -797,14 +797,20 @@ fieldset label{
     align-items: center;
 }
 
+.right-line{
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+
 .range-money label{
     margin-left: 8px;
+    cursor: pointer;
 }
 
 .filter input[type='checkbox']{
     width: 20px;
     height: 20px;
     border-radius: 6px;
+    cursor: pointer;
 }
 
 .filter .legend{
@@ -839,13 +845,14 @@ fieldset label{
 
 .own-budget img{
     margin-top: -5px;
+    cursor: pointer;
 }
 
 
 .stars{
     display: flex;
     justify-content: center;
-    margin: 0 21px 0 16px;
+    margin: 0 21px 22px 16px;
     border: 1px solid rgba(224, 224, 224, 1);
     border-radius: 6px;
     box-sizing: border-box;
@@ -856,9 +863,13 @@ fieldset label{
     height: 46px;
     display: flex;
     justify-content: center;
-    gap: 3px;
+    gap: 4px;
     align-items: center;
-    border-radius: 6px;
+}
+
+.stars div:hover{
+    background-color: #fafafa;
+    cursor: pointer;
 }
 
 #title-stars{
