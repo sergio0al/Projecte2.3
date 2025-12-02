@@ -740,8 +740,19 @@ fieldset label{
     border-radius: 4px;
     border: 1px solid rgba(224, 224, 224, 1);
     background-color: rgba(255, 255, 255, 1);
-    padding: 0 20px;
+    padding: 0px 41px 2px 41px;
     box-sizing: border-box;
+    letter-spacing: 0.10px;
+}
+
+.search-name div{
+    display: flex;
+    align-items: center;
+}
+
+.search-name div img{
+    margin-left: -245px;
+    margin-bottom: 2px;
 }
 
 .search-name{
@@ -753,7 +764,7 @@ fieldset label{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 22px 0px 21px 18px;
+    padding: 22px 0px 20px 18px;
     box-sizing: border-box;
 }
 
@@ -889,6 +900,10 @@ fieldset label{
 .stars div img{
     width: 18px;
     height: 18px;
+}
+
+#filter-bottom{
+    margin-bottom: 23px;
 }
 
 
