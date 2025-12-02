@@ -440,18 +440,6 @@ main{
 
 
 
-/* Search */
-
-.flex-main{
-    margin-top: 72px;
-    display: flex;
-}
-
-.filters{
-    width: 295px;
-}
-
-
 
 
 
@@ -720,6 +708,35 @@ main{
 
 
 /* Searching */
+
+
+/* Search */
+
+.flex-main{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex-main .result-cards{
+    width: 915px;
+}
+
+.result-cards .title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 1px;
+}
+
+
+
+/* Filtros */
+
+.filters{
+    width: 295px;
+}
 
 
 fieldset label{
