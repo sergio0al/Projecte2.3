@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Porjecte2 - Search Result</title>
+</head>
+<body>
+    <div class="header-div">
+        <header>
+            <div>
+                <a href="index.html"><img src="images/whitelogo.png" alt=""></a>
+            </div>
+            <nav>
+                <ul class="navegacion2">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Activities</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="nav-buttons">
+                <img src="images/notification1.png" alt="Notification" width="24px" height="24px" class="notify">
+                <img src="images/avatar.png" alt="Avatar" width="44px" height="44px" class="avatar">
+            </nav>
+        </header>
+    </div>
+
+    <main class="result">
+
+        <section class="search">
+            <form>
+                <input type="text" class="location" placeholder="Where are you going?">
+                <input type="text" class="date" onfocus="this.type='date'" placeholder="Check in date" onblur="if(!this.value) this.type='text'">
+                <input type="text" class="date" onfocus="this.type='date'" placeholder="Check in date" onblur="if(!this.value) this.type='text'">
+                <input type="text" class="guest" placeholder="Guests">
+                <button>Search</button>
+            </form>
+        </section>
+
+
+        <div class="flex-main">
+            <section class="filters">
+                <form>
+                    <fieldset class="search-name">
+                        <label for="name">Search by property name</label>
+                        <div>
+                            <input type="text" name="Name" id="name" placeholder="eg. Beach westpalm">
+                            <img src="images/icons/lupa.png" alt="Lupa" width="17px" height="17px">
+                        </div>
+                    </fieldset>
+
+                    <h3 class="title-filter">Filter by</h3>
+
+                    <fieldset class="filter">
+                        <h3 class="legend">Your budget per day</h3>
+
+                        <div class="content">
+                            
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget1" id="budget1">
+                                    <label for="budget1">$ 0 - $ 200</label>
+                                </div>
+                                <div>
+                                    <p>200</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget2" id="budget2">
+                                    <label for="budget2">$ 200 - $ 500</label>
+                                </div>
+                                <div>
+                                    <p>100</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget3" id="budget3">
+                                    <label for="budget3">$ 500 - $ 1,000</label>
+                                </div>
+                                <div>
+                                    <p>15</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget4" id="budget4">
+                                    <label for="budget4">$ 1,000 - $ 2,000</label>
+                                </div>
+                                <div>
+                                    <p>12</p>
+                                </div>
+                            </div>
+
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Budget5" id="budget5">
+                                    <label for="budget5">$ 2,000 - $ 5,000</label>
+                                </div>
+                                <div>
+                                    <p>230</p>
+                                </div>
+                            </div>
+
+                            <div class="own-budget">
+                                <label>Set your own budget</label>
+                                <img src="images/icons/slider.png" alt="slider">
+                            </div>
+                        </div>
+                    </fieldset>
+
+
+                    <fieldset class="filter"> 
+                        <h3 class="legend">Rating</h3>
+
+                        <div id="title-stars">
+                            <label>Show only ratings more than</label>
+                        </div>
+                        <div class="stars">
+                            <div class="right-line">
+                                <p>1</p>
+                                <img src="images/icons/star.png" alt="start">
+                            </div>
+
+                            <div class="right-line">
+                                <p>2</p>
+                                <img src="images/icons/star.png" alt="start">
+                            </div>
+
+                            <div class="right-line">
+                                <p>3</p>
+                                <img src="images/icons/star.png" alt="start">
+                            </div>
+
+                            <div class="right-line">
+                                <p>4</p>
+                                <img src="images/icons/star.png" alt="start">
+                            </div>
+
+                            <div>
+                                <p>5</p>
+                                <img src="images/icons/star.png" alt="start">
+                            </div>
+                        </div>
+                    </fieldset>
+
+
+                    <fieldset class="filter">
+                        <h3 class="legend">Popular Filters</h3>
+
+                        <div class="content">
+                            
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Free Cancellation" id="freecancellation">
+                                    <label for="freecancellation">Free cancellation</label>
+                                </div>
+                                <div>
+                                    <p>200</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Spa" id="spa">
+                                    <label for="spa">Spa</label>
+                                </div>
+                                <div>
+                                    <p>100</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Beach Front" id="beachfront">
+                                    <label for="beachfront">Beach front</label>
+                                </div>
+                                <div>
+                                    <p>15</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Hot tub/ jacuzzi" id="jacuzzi">
+                                    <label for="jacuzzi">Hot tub/ jacuzzi</label>
+                                </div>
+                                <div>
+                                    <p>12</p>
+                                </div>
+                            </div>
+
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Book without credit card" id="bookwithoutcreditcard">
+                                    <label for="bookwithoutcreditcard">Book without credit card</label>
+                                </div>
+                                <div>
+                                    <p>230</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money" id="filter-bottom">
+                                <div>
+                                    <input type="checkbox" name="No prepayment" id="noprepayment">
+                                    <label for="noprepayment">No prepayment</label>
+                                </div>
+                                <div>
+                                    <p>12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+
+                    <fieldset class="filter">
+                        <h3 class="legend">Activities</h3>
+
+                        <div class="content">
+                            
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Fishing" id="fishing">
+                                    <label for="fishing">Fishing</label>
+                                </div>
+                                <div>
+                                    <p>200</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Hiking" id="hiking">
+                                    <label for="hiking">Hiking</label>
+                                </div>
+                                <div>
+                                    <p>100</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Beach" id="beach">
+                                    <label for="beach">Beach</label>
+                                </div>
+                                <div>
+                                    <p>15</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Cycling" id="cycling">
+                                    <label for="cycling">Cycling</label>
+                                </div>
+                                <div>
+                                    <p>12</p>
+                                </div>
+                            </div>
+
+
+                            <div class="range-money">
+                                <div>
+                                    <input type="checkbox" name="Sauna" id="sauna">
+                                    <label for="sauna">Sauna</label>
+                                </div>
+                                <div>
+                                    <p>230</p>
+                                </div>
+                            </div>
+
+                            <div class="range-money" id="filter-bottom">
+                                <div>
+                                    <input type="checkbox" name="Night Lights" id="nightlights">
+                                    <label for="nightlights">Night lights</label>
+                                </div>
+                                <div>
+                                    <p>12</p>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+
+                </form>
+            </section>
+
+            <div class="result-cards">
+                <h3 class="title">Melbourne : 2,582 search results found</h3>
+                <table>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <section class="warning" style="margin-top: 300px;">
+            <img src="images/warning.png" alt="warning">
+            <p>Check the latest COVID-19 restrictions before you travel. <a href="#" class="link"><span>Learn more</span></a></p>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <ul id="footer-footo">
+                <img src="images/logo.png">
+                <li>Your next goto companion for travel</li>
+            </ul>
+            <ul id="uno">
+                <h6>Company</h6>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Newsroom</a></li>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <ul id="dos">
+                <h6>Explore</h6>
+                <li><a href="#">Australia</a></li>
+                <li><a href="#">New Zealand</a></li>
+                <li><a href="#">United States America (USA)</a></li>
+                <li><a href="#">Greece</a></li>
+                <li><a href="#">Maldives</a></li>
+                <li><a href="#">Singapore</a></li>
+                <li><a href="#" class="link">See more</a></li>
+            </ul>
+            <ul id="tres">
+                <h6>Terms and Policies</h6>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Acessibility</a></li>
+                <li><a href="#">Reward system policy</a></li>
+            </ul>
+            <ul id="cuatro">
+                <h6>Help</h6>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Cancel your booking</a></li>
+                <li><a href="#">Use Coupon</a></li>
+                <li><a href="#">Refund Policies</a></li>
+                <li><a href="#">International Travel Documents</a></li>
+            </ul>
+        </nav>
+        <div class="copy">
+            <p><span>&copy;</span>my Dream Place 2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>

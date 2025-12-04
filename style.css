@@ -44,6 +44,7 @@
 html{
     background-color: #1e1e1e;
     font-family: "SF Pro Display", sans-serif;
+    scrollbar-width: none;
 }
 
 body{
@@ -62,6 +63,28 @@ body{
 
 
 /* Header Style */
+
+.header-div{
+    background: linear-gradient(180deg, #2969BF 0%, #144E9D 100%);
+    height: 200px;
+}
+
+header .navegacion2{
+    text-decoration: none;
+    margin-bottom: 1px;
+    margin-left: 24px;
+}
+
+
+header .navegacion2 *{
+    color: white;
+}
+
+header .navegacion2 li{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
 
 header{
     height: 68px;
@@ -89,6 +112,7 @@ header ul *{
 }
 
 header nav{
+    align-items: center;
     display: flex;
     gap: 10px;
 }
@@ -110,6 +134,18 @@ header nav h2{
     font-size: 18px;
     line-height: 100%;
 
+}
+
+
+header .notify{
+    margin-top: 0px;
+    margin-right: 2px;
+    margin-left: 94px;
+}
+
+header .avatar{
+    margin-bottom: 5px;
+    margin-left: 10px;
 }
 
 
@@ -160,6 +196,255 @@ main{
 /* Index Main */
 
 
+.index .welcome{
+    margin: 12px 0;
+    width: 1240px;
+    height: 500px;
+    text-align: center;
+    color: white;
+    background-image: url(images/welcome.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 23px;
+}
+
+.index .welcome .title{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+}
+
+.index .welcome .subtitle{ 
+    top: 328px;
+    left: 395px;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: 0.80px;
+}
+
+
+/* Search */
+
+.result .search{
+    position: absolute;
+    top: 212px;
+    width: 1030px;
+}
+
+.search{
+    position: relative;    
+    z-index: 10;
+    align-content: center;
+    height: 64px;
+    margin: -44px 105px 0 105px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 37px 0px rgba(0, 0, 0, 0.15);
+    background-color: white;
+}
+
+.search form{
+    padding-left: 12px;
+    width: 100%;
+    display: flex;
+    gap: 12px;
+}
+
+.search input{
+    padding-left: 20px;
+    border-radius: 4px;
+    border: 1px;
+    background-color: rgba(242, 242, 242, 1);
+}
+
+.search input:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+.search .date{
+    padding-right: 20px;
+    width: 130px;
+    height: 43px;
+}
+
+.search .location{
+    width: 240px;
+    height: 43px;
+}
+
+.search .guest{
+    width: 190px;
+    height: 43px;
+}
+
+.search button{
+    width: 148px;
+    height: 44px;
+    border-radius: 6px;
+    color: white;
+    background-color: #2f80ed;
+    border: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+    cursor: pointer;
+}
+
+
+
+/* Warning Style*/
+
+.warning{
+    height: 72px;
+    margin: 50px 0 50px 0;
+    border-radius: 8px;
+    background-color: rgba(252, 239, 202, 1);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0 24px;
+    letter-spacing: 0.32px;
+}
+
+.warning p{
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    padding-left: 3px;
+}
+
+
+/* Card Style */
+
+.index .title-card{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 16px;
+    margin-top: -1px;
+}
+
+.index #PopularHotels{
+    margin-bottom: 23px;
+}
+
+.index .subtitle-card{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+    margin-bottom: 28px;
+}
+
+.index .section-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 61px;
+}
+
+.index .section-cards img{
+    cursor: pointer;
+}
+
+.index .section-cards .name{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.index .section-cards .properties{
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.32px;
+}
+
+
+
+.index .travel-inspirations{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding-top: 7px;
+}
+
+.index .travel-inspirations img{
+    position: absolute;
+    cursor: pointer;
+}
+
+.index .travel-inspirations div{
+    width: 360px;
+    height: 240px;
+    margin: 20px 20px;
+    position: relative;
+    align-content: end;
+    color: white;
+    cursor: pointer;
+}
+
+.index .travel-inspirations div h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.index .travel-inspirations div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+    padding-top: 11px;
+    margin-bottom: -2px;
+}
+
+
+/* Downloader Style */
+
+.index .download{
+    display: flex;
+    height: 280px;
+    background-image: url(images/downloader.png);
+    color: white;
+}
+
+.index .download div{
+    margin: 64px 0 64px 69px;
+}
+
+.index .download div h2{
+    width: 580px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.index .download div button{
+    width: 182px;
+    height: 44px;
+    color: white;
+    background-color: #2f80ed;
+    border-radius: 6px;
+    border: 1px;
+    margin-top: 30px;
+    letter-spacing: 0.90px;
+    cursor: pointer;
+}
+
+.index .download img{
+    margin-left: -198px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -171,14 +456,22 @@ main{
 /* Formularios Main */
 
 .formularios form{
+<<<<<<< HEAD
     height: 82.91vh;
+=======
+    height: 82.6vh;
+>>>>>>> 5b7dd6ecf4f56dc29efbf0dcef220bcd796b5845
     margin: auto;
     margin-top: 94px;
     max-width: 400px;
 }
 
 .formularios .check{
+<<<<<<< HEAD
     height: 83.1vh;
+=======
+    height: 82.8vh;
+>>>>>>> 5b7dd6ecf4f56dc29efbf0dcef220bcd796b5845
     margin: auto;
     margin-top: 94px;
     max-width: 400px;
@@ -416,3 +709,334 @@ main{
 }
 
 /* Fin Formularios */
+
+
+
+
+
+
+/* Searching */
+
+
+/* Search */
+
+.flex-main{
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.flex-main .result-cards{
+    width: 915px;
+}
+
+.result-cards .title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    margin-top: 1px;
+}
+
+
+
+/* Filtros */
+
+.filters{
+    width: 295px;
+}
+
+
+fieldset label{
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+
+.result{
+    margin-top: 104px;
+}
+
+.result .search-name input[type='text']{
+    width: 259px;
+    height: 44px;
+    border-radius: 4px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0px 41px 2px 41px;
+    box-sizing: border-box;
+    letter-spacing: 0.10px;
+}
+
+.search-name div{
+    display: flex;
+    align-items: center;
+}
+
+.search-name div img{
+    margin-left: -245px;
+    margin-bottom: 2px;
+}
+
+.search-name{
+    width: 295px;
+    height: 119px;
+    background-color: rgba(242, 242, 242, 1);
+    border: 0px solid rgba(224, 224, 224, 1);
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 22px 0px 20px 18px;
+    box-sizing: border-box;
+}
+
+
+/* Filter By */
+
+
+.title-filter{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.36px;
+    margin: 22px 0 21px 18px;
+    color: gray;
+}
+
+
+.filter{
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.filter p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+}
+
+.filter label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    box-sizing: border-box;
+}
+
+.range-money div{
+    display: flex;
+    align-items: center;
+}
+
+.right-line{
+    border-right: 1px solid rgba(224, 224, 224, 1);
+}
+
+.range-money label{
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.filter input[type='checkbox']{
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.filter .legend{
+    width: 293px;
+    height: 54px;
+    box-sizing: border-box;
+    background-color: rgba(242, 242, 242, 1);
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    padding: 19px 17px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+}
+
+.filter .content{
+    margin: 18px 19px 17px 17px;
+}
+
+.filter .content .range-money{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+
+.own-budget{
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.own-budget img{
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+
+.stars{
+    display: flex;
+    justify-content: center;
+    margin: 0 21px 22px 16px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.stars div{
+    width: 50px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+
+.stars div:hover{
+    background-color: #fafafa;
+    cursor: pointer;
+}
+
+#title-stars{
+    margin-top: 18px;
+    margin-bottom: 7px;
+    margin-left: 17px;
+    letter-spacing: 0.64px;
+}
+
+.stars div p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+}
+
+.stars div img{
+    width: 18px;
+    height: 18px;
+}
+
+#filter-bottom{
+    margin-bottom: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+footer{
+    margin: 0px 100px;
+}
+
+footer .title-footer h2{
+    margin-top: 77px;
+    margin-bottom: 13px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+footer .title-footer p{
+    margin-bottom: 81px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.32px;
+    text-align: center;
+}
+
+footer  nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer nav ul{
+    list-style: none;
+    width: 25%;
+    margin-left: 61px;
+}
+
+footer nav ul h6{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    margin-bottom: 20px;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: rgba(79, 79, 79, 1);
+}
+
+footer nav ul li{
+    margin-bottom: 14px;
+    color: rgba(79, 79, 79, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.32;
+}
+
+footer nav ul li a:hover{
+    color: #9bc5fd ;
+    transition: color 0.3s ease;
+}
+
+footer #footer-footo{
+    margin-right: 21px;
+    margin-left: 0px;
+}
+
+footer #footer-footo li{
+    width: 197px;
+    margin-left: 28px;
+    line-height: 20px;
+}
+
+footer .copy{
+    height: 40px;
+    background-color: rgba(235, 235, 235, 1);
+    margin: 0 -100px;
+    margin-top: 44px;
+    align-content: center;
+    text-align: right;
+}
+
+footer .copy p{
+    margin-right: 205px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0%;
+}
+
+footer .copy span{
+    font-size: 19px;
+    margin-right: 3px;
+}
