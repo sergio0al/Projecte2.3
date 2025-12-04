@@ -456,22 +456,15 @@ main{
 /* Formularios Main */
 
 .formularios form{
-<<<<<<< HEAD
     height: 82.91vh;
-=======
     height: 82.6vh;
->>>>>>> 5b7dd6ecf4f56dc29efbf0dcef220bcd796b5845
     margin: auto;
     margin-top: 94px;
     max-width: 400px;
 }
 
 .formularios .check{
-<<<<<<< HEAD
-    height: 83.1vh;
-=======
     height: 82.8vh;
->>>>>>> 5b7dd6ecf4f56dc29efbf0dcef220bcd796b5845
     margin: auto;
     margin-top: 94px;
     max-width: 400px;
@@ -932,7 +925,140 @@ fieldset label{
 }
 
 
+.result-cards .lado{
+    border: 1px solid rgba(47, 128, 237, 1);
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    text-align: center;
+    color: rgba(47, 128, 237, 1);
+    background-color: #f5f9fe;
+    letter-spacing: 0.50px;
+}
 
+.result-cards .lado2{
+    border: 1px solid rgba(47, 128, 237, 1);
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-align: center;
+    letter-spacing: 0.35px;
+    color: gray;
+}
+
+
+.result-cards .hotel{
+    border-top: 1px solid rgba(47, 128, 237, 1);
+    border-bottom: 1px solid rgba(47, 128, 237, 1);
+    border-right: 1px solid rgba(47, 128, 237, 1);
+    letter-spacing: 0.25px;
+    color: gray;
+}
+
+.result-cards .residence{
+    border-top: 1px solid rgba(47, 128, 237, 1);
+    border-bottom: 1px solid rgba(47, 128, 237, 1);
+    border-right: 1px solid rgba(47, 128, 237, 1);
+    letter-spacing: 0.25px;
+    color: gray;
+}
+
+.result-cards .resort{
+    border-top: 1px solid rgba(47, 128, 237, 1);
+    border-bottom: 1px solid rgba(47, 128, 237, 1);
+    letter-spacing: 0.10px;
+    color: gray;
+}
+
+
+.result .result-cards table tr{
+    display: flex;
+    gap: 0px;
+}
+
+.result .result-cards table td{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 18px;
+}
+
+.result .result-cards table td:hover{
+    color: rgba(47, 128, 237, 1);
+    background-color: #f5f9fe;
+    cursor: pointer;
+}
+
+.top-resultados{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    margin-left: -3px;
+}
+
+.sort-by{
+    border: 1px solid rgba(189, 189, 189, 1);
+    border-radius: 6px;
+    width: 190px;
+    height: 48px;
+    box-sizing: border-box;
+    padding-left: 11px;
+    padding-top: 2px;
+    margin-top: -1px;
+}
+
+.sort-by .lebel{
+    position: absolute;
+}
+
+.sort-by label{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.34px;
+    color: gray;
+}
+
+.sort-by select{
+    border: 0px;
+    appearance: none;
+    width: 187px;
+    height: 45px;
+    background-color: rgba(47, 128, 237, 0);
+    margin-top: -20px;
+    margin-left: -10px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-top: 13px;
+    position: absolute;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+
+
+.sort-by label::after{
+    content: url(images/icons/flecha.svg);
+    position: absolute;
+    margin-left: 113px;
+    margin-top: 15px;
+    width: 16px;
+}
+
+
+/* Search Cards */
+
+.result .div-cards{
+    margin-top: 24px;
+}
+
+.result .card{
+    width: 913px;
+    height: 238px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 5px;
+}
+
+.result .card .margin{
+    margin: 19px 19px;
+}
 
 
 
