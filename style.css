@@ -1058,6 +1058,80 @@ fieldset label{
 
 .result .card .margin{
     margin: 19px 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.result .card .card-content{
+    width: 670px;
+    margin-left: 24px;
+}
+
+
+/* Left Card */
+
+.result .card .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 188px;
+    width: 390px;
+    padding-top: 8px;
+}
+
+.result .card .left h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.20px;
+}
+
+.result .card .left .ratings{
+    display: flex;
+    gap: 12px;
+    padding-top: 4px;
+}
+
+.result .card .left .ratings p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.28px;
+    padding-top: 1px;
+}
+
+.result .card .left .texto1 {
+    color: gray;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 90%;
+    letter-spacing: 0.26px;
+    padding-top: 13px;
+    margin-top: 1px;
+}
+
+.result .card .left .texto2 {
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.26px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+.result .card .left .button{
+    width: 137px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(47, 128, 237, 1);
+    text-align: center;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.50px;
 }
 
 
