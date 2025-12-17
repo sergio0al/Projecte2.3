@@ -1087,13 +1087,13 @@ fieldset label{
     letter-spacing: 0.20px;
 }
 
-.result .card .left .ratings{
+.ratings{
     display: flex;
     gap: 12px;
     padding-top: 4px;
 }
 
-.result .card .left .ratings p{
+.ratings p{
     font-weight: 400;
     font-size: 14px;
     line-height: 140%;
@@ -1280,10 +1280,84 @@ fieldset label{
 
 /* Datails */
 
+
+/* Datails Photo Section */
+
 .detail-index .photos{
-    
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 24px;
+    padding-bottom: 30px;
+    background: linear-gradient(180deg, rgba(244, 244, 244, 0) 0%, #FFFFFF 100%);
 }
 
+.detail-index .photos div{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+/* Datails Explore Section */
+
+.detail-index .explore ul{
+    display: flex;
+    gap: 13.5px;
+}
+
+.detail-index .explore ul li{
+    text-align: center;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.34px;
+    align-content: center;
+    cursor: pointer;
+}
+
+.detail-index .explore .select{
+    box-sizing: border-box;
+    border-bottom: 3px solid #2F80ED;
+    width: 94px;
+    height: 42px;
+}
+
+.detail-index .explore .rooms{
+    width: 77px;
+    height: 40px;
+}
+
+.detail-index .explore .guest{
+    width: 133px;
+    height: 40px;
+}
+
+
+/* Datails Overview Section */
+
+.detail-index .Overview{
+    background-color: #f4f4f4;
+    border-top: 1px solid #e0e0e0;
+    margin: 0 -100px;
+}
+
+.detail-index .Overview .margin{
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-index .Overview .name-hotel{
+    margin-top: 39px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0.32px;
+    vertical-align: middle;
+}
 
 
 
