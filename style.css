@@ -1283,13 +1283,18 @@ fieldset label{
 
 /* Datails Photo Section */
 
+.detail-index .background-photos{
+     background: linear-gradient(180deg, rgba(244, 244, 244, 255) 0%, #FFFFFF 100%);
+     margin: 0 -100px;
+}
+
 .detail-index .photos{
     display: flex;
     justify-content: space-between;
     gap: 20px;
     padding-top: 24px;
     padding-bottom: 30px;
-    background: linear-gradient(180deg, rgba(244, 244, 244, 0) 0%, #FFFFFF 100%);
+    margin: 0 100px;
 }
 
 .detail-index .photos div{
@@ -1384,11 +1389,134 @@ fieldset label{
     border-radius: 6px;
 }
 
-
 .detail-index .Overview .up{
     border-bottom: 1px solid #e0e0e0;
     height: 306px;
 }
+
+.detail-index .Overview .up .margin{
+    margin: 0px 40px 0px 30px;
+    padding-top: 26px;
+    flex-direction: column;
+}
+
+.detail-index .Overview .up h4{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+    margin-bottom: 22px;
+}
+
+.detail-index .Overview .up p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.34px;
+    color: gray;
+    letter-spacing: 0.32px;
+    margin-bottom: 3px;
+}
+
+.detail-index .Overview .down{
+    margin: 28px 30px;
+}
+
+.detail-index .Overview .display-flex{
+    display: flex;
+    gap: 114px;
+}
+
+.detail-index .Overview .down h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+    margin-bottom: 25px;
+}
+
+.detail-index .Overview .down p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.30px;
+    color: gray;
+    margin-top: 1px;
+}
+
+.detail-index .Overview .down .flex{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.detail-index .Overview .down .imagen_pequenya{
+    margin-top: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.detail-index .Overview .down .imagen_pequenya2{
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+
+/* Datails Explore Section */
+
+.detail-index .right .location{
+    margin-top: 39px;
+}
+
+.detail-index .right h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+    margin-top: 37px;
+    margin-bottom: 24px;
+}
+
+.detail-index .right .flex2{
+    display: flex;
+    gap: 10px;
+}
+
+.detail-index .right .flex1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3px;
+    margin-bottom: 12px;
+}
+
+.detail-index .right .flex1 p{
+    color: gray;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.28px;
+}
+
+/* Datails Explore Section */
+
+.detail-index .available-rooms{
+    height: 300px;
+    background-color: #f4f4f4;
+    margin: 0 -100px;
+}
+
+.detail-index .available-rooms .margin{
+    margin: 0 100px;
+}
+
+.detail-index .available-rooms .margin h2{
+    padding-top: 40px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+
 
 
 
