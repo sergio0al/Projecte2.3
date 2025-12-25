@@ -1576,6 +1576,46 @@ fieldset label{
 
 /* More Hotels Explore Section */
 
+.detail-index .more-hotels{
+    margin: -124px -100px;
+    background-color: #f4f4f4;
+}
+
+.detail-index .more-hotels article{
+    overflow: hidden;
+}
+
+.detail-index .more-hotels .announce{
+    margin: 0 100px;
+    width: 400px;
+    height: 340px;
+    background: linear-gradient(180deg, #4796FF 0%, #2366BF 100%);
+    border-radius: 6px;
+    color: white;
+    margin-left: 105px;
+    display: flex;
+}
+
+.detail-index .more-hotels .announce div{
+    margin: 72px 0px 0px 28px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    letter-spacing: 0.3px;
+}
+
+.detail-index .more-hotels .announce div span{
+    color: rgba(255, 215, 35, 1);
+}
+
+.detail-index .more-hotels .announce div img{
+    margin-bottom: 20.5px;
+}
+
+.detail-index .more-hotels .announce .persona{
+    margin: 35px 0px 0px 154px;
+    position: absolute;
+}
 
 
 
