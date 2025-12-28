@@ -1577,16 +1577,69 @@ fieldset label{
 /* More Hotels Explore Section */
 
 .detail-index .more-hotels{
-    margin: -124px -100px;
+    margin: -124px -100px 0px -100px;
+    padding-bottom: 280px;
     background-color: #f4f4f4;
+    display: flex;
+    gap: 15px;
 }
 
 .detail-index .more-hotels article{
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 6px;
+    width: 400px;
+    height: 432px;
+}
+
+.detail-index .more-hotels article h4{
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.19px;
+    margin: 16px 0px 20px 20px;
+}
+
+.detail-index .more-hotels .habitacion div{
+    display: flex;
+    margin-left: 22px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.3px;
+    color: gray;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.detail-index .more-hotels .habitacion a{
+    text-decoration: none;
+}
+
+.detail-index .more-hotels .habitacion .button{
+    width: 360px;
+    height: 44px;
+    background-color: rgba(47, 128, 237, 1);
+    color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    margin-top: 24px;
+    text-align: center;
+    align-content: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    box-sizing: border-box;
+    padding-right: 1px;
+}
+
+
+.detail-index .more-hotels .margin-left{
+    margin-left: 5px;
 }
 
 .detail-index .more-hotels .announce{
-    margin: 0 100px;
+    margin: 0 0px 0px 5px;
     width: 400px;
     height: 340px;
     background: linear-gradient(180deg, #4796FF 0%, #2366BF 100%);
@@ -1618,9 +1671,136 @@ fieldset label{
 }
 
 
+.gray2{
+    background-color: #f4f4f4;
+    margin-top: -230px;
+    margin-bottom: -50px;
+}
+
+
+
+
+
+/* Checkout Section */
+
+.checkout{
+    background-color: #f4f4f4;
+    margin: 0 0;
+}
+
+.checkout .title{
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0.331px;
+    padding-top: 57px;
+    margin-bottom: -23px;
+}
+
+.checkout .margin{
+    margin: 0 100px;
+}
+
+.checkout .row{
+    display: flex;
+    margin-left: 32px;
+    margin-bottom: 23px;
+}
+
+.checkout .row div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.checkout .row select{
+    width: 150px;
+    height: 44px;
+    box-sizing: border-box;
+    background-color: rgba(242, 242, 242, 1);
+    border: 0px;
+}
+
+
+
+
+.checkout fieldset{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    border: 0px;
+    padding-top: 35px;
+}
+
+
+/* Checkout Left Section */
+
+.checkout .left{
+    width: 810px;
+}
+
+.checkout .left .legend{
+    width: 810px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: rgba(47, 128, 237, 1);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: white;
+    align-content: center;
+    margin-top: -20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+    padding-left: 20px ;
+    padding-bottom: 2px;
+}
+
+.checkout .left .legend img{
+    margin-bottom: -8px;
+}
+
+.checkout .left .legend span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.40px;
+    padding-left: 16px;
+    padding-right: 15px;
+}
+
+.checkout .left .row label{
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+}
+
+.checkout .left .row input[type='text']{
+    width: 240px;
+    height: 44px;
+    box-sizing: border-box;
+    padding-left: 12px;
+    border-radius: 4px;
+    background-color: rgba(242, 242, 242, 1);
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    border: 0px;
+    margin-right: 20px;
+}
+
+
+
 
 
 /* Footer */
+
+.gray{
+    padding-top: 80px;
+    background-color: #f4f4f4;
+}
+
 
 footer{
     margin: 0px 100px;
