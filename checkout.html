@@ -60,9 +60,10 @@
 
                             <div>
                                 <label for="first-name">Mobile number</label>
-                                <img>
+                                <img src="images/flags/61.png" class="flag" id="ingland" alt="United Kingdom">
+                                <img src="images/icons/flecha.svg" class="flecha" alt="Arrow" width="13px" height="11px">
                                 <select>
-                                    <option onclick="">+61</option>
+                                    <option onclick="texto.style.opacity = 0.5">+61</option>
                                     <option>+52</option>
                                     <option>+34</option>
                                 </select>
@@ -72,10 +73,8 @@
 
                         </div>
 
-                        <label class="checkbox">
-                            <input type="checkbox">
-                            Receive text alerts about this trip.
-                        </label>
+                        <input type="checkbox" id="text-alerts" name="text-alerts">
+                        <label for="text-alerts" class="checkbox">Receive text alerts about this trip.</label>
 
                     </fieldset>
                 </div>
@@ -86,6 +85,8 @@
             </form>
         </div>
 
+
+        <h3 class="espacio" style="padding-top: 400px;">Payment details</h3>
     </main>
 
 
