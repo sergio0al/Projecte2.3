@@ -1845,6 +1845,43 @@ fieldset label{
 }
 
 
+.checkout .left .divider .option{
+    width: 100.1%;
+    height: 48px;
+    background-color: white;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    margin-top: -35px;
+    display: flex;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    gap: 13.5px;
+}
+
+.checkout .left .divider p{
+    padding: 0 14.5px;
+    height: 44px;
+    align-content: center;
+    margin-top: 4px;
+    color: gray;
+    cursor: pointer;
+}
+
+.checkout .left .divider .option .select{
+    margin-top: 6px;
+    align-content: center;
+    height: 39px;
+    border-bottom: 3px solid #2F80ED;
+    margin-left: 32px;
+}
+
+
+
+.checkout .left .divider{
+    margin-top: 50px;
+}
+
 
 /* Footer */
 
