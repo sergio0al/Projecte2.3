@@ -1876,10 +1876,99 @@ fieldset label{
     margin-left: 32px;
 }
 
+.checkout .left .cards{
+    margin-left: 32px;
+    margin-top: 31px;
+    margin-bottom: 29px;
+    display: flex;
+    gap: 6px;
+}
+
+.checkout .left .cards div{
+    text-align: center;
+    align-content: center;
+    background-color: rgba(242, 242, 242, 1);
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.checkout .left .cards div img{
+    padding-top: 3px;
+}
+
+.checkout .left .payment .row input[type='text']{
+    width: 500px;
+}
+
+.checkout .left .payment .row input[type='number']{
+    width: 240px;
+    height: 44px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: rgba(242, 242, 242, 1);
+    border: 0px;
+}
+
+.checkout .left .payment .row select{
+    text-align: left;
+    padding-left: 12px;
+    color: gray;
+    height: 42px;
+}
+
+.checkout .left .payment .row .gap{
+    margin-left: 20px;
+    margin-bottom: -100px;
+}
+
+.checkout .left .payment .row img{
+    position: absolute;
+    margin-top: 39px;
+    margin-left: 124px;
+}
+
+.checkout .left .payment .row .flechaa{
+    position: absolute;
+    margin-left: 286px;
+    margin-top: 37px;
+}
+
+
+.checkout .left .payment .row .year{
+    margin-top: 21px;
+    margin-left: 12px;
+}
+
+.checkout .left .payment{
+    height: 441px;
+    margin-bottom: 30px;
+}
 
 
 .checkout .left .divider{
     margin-top: 50px;
+}
+
+.checkout .left .legend2{
+    width: 810px;
+    height: 60px;
+    box-sizing: border-box;
+    background-color: rgba(242, 201, 76, 1);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: black;
+    align-content: center;
+    margin-top: 50px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 1%;
+    padding-left: 20px ;
+    padding-bottom: 2px;
 }
 
 
