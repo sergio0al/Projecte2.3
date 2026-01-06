@@ -1755,6 +1755,10 @@ fieldset label{
     border-bottom-right-radius: 6px;
 }
 
+.checkout form{
+    display: flex;
+}
+
 
 /* Checkout Left Section */
 
@@ -1944,7 +1948,7 @@ fieldset label{
 
 .checkout .left .payment{
     height: 441px;
-    margin-bottom: 30px;
+    margin-bottom: -20px;
 }
 
 
@@ -1966,10 +1970,231 @@ fieldset label{
     font-style: Medium;
     font-size: 18px;
     line-height: 24px;
-    letter-spacing: 1%;
-    padding-left: 20px ;
+    letter-spacing: 0.17px;
+    padding-left: 24px;
+    padding-top: 2px;
     padding-bottom: 2px;
 }
+
+.checkout .left .information{
+    height: 363px;
+    box-sizing: border-box;
+    padding-bottom: 0px;
+}
+
+.checkout .espacio{
+    padding-top: 122px;
+    color: #f4f4f4;
+    background-color: #f4f4f4;
+}
+
+.checkout .left .information ol{
+    margin-left: 45px;
+    margin-top: -2px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0.31px;
+    color: rgb(95, 95, 95);
+    margin-bottom: 26px;
+}
+
+.checkout .left .information p{
+    margin-left: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.28px;
+    color: gray;
+}
+
+
+.checkout .left .information button{
+    width: 160px;
+    height: 44px;
+    box-sizing: border-box;
+    border: 0px;
+    background-color: rgba(47, 128, 237, 1);
+    color: white;
+    border-radius: 6px;
+    margin-left: 24px;
+    margin-bottom: 6px;
+    margin-top: 21px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.09px;
+    cursor: pointer;
+}
+
+.checkout .left .information div{
+    display: flex;
+    margin-left: 24px;
+    margin-bottom: 0px;
+}
+
+.checkout .left .information div p{
+    margin-left: -7px;
+}
+
+
+.checkout .right .hotel{
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.checkout .right .hotel div{
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.checkout .right .hotel p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.14px;
+    margin-left: 20px;
+    color: gray;
+}
+
+.checkout .right .hotel p span{
+    color: rgba(235, 87, 87, 1);
+}
+
+.checkout .right .hotel h3{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0.18px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.checkout .right .hotel .start{
+    margin-top: 11px;
+    margin-left: 20px;
+    margin-right: -8px;
+}
+
+.checkout .right .hotel div p{
+    margin-top: 7px;
+    letter-spacing: 0.28px;
+}
+
+.checkout .right .titledetails{
+    width: 400px;
+    height: 55px;
+    background-color: rgba(133, 224, 171, 1);
+    margin-left: 30px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-left: 18px;
+    align-content: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.checkout .right .pricedetails{
+    height: 283px;
+    letter-spacing: 0.28px;
+    margin-left: 30px;
+    background-color: white;
+    border: 1px solid rgba(224, 224, 224, 1);
+    box-sizing: border-box;
+    padding-top: 22px;
+}
+
+.checkout .right .pricedetails div{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    width: 360px;
+    margin-bottom: 12px;
+}
+
+.checkout .right .pricedetails p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+    margin-left: -3px;
+}
+
+.checkout .right .pricedetails hr{
+    margin-top: 20px;
+    border-color: rgba(224, 224, 224, 1);
+    color: rgba(224, 224, 224, 1);
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+}
+
+.checkout .right .pricedetails div .fuente{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0.16px;
+    margin-left: -3px;
+}
+
+.checkout .right .pricedetails .link{
+    margin-left: 20px;
+    margin-top: -3px;
+    letter-spacing: 0.29px;
+}
+
+.checkout .right .pricedetails{
+    margin-left: 30px;
+    letter-spacing: 0.30px;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+}
+
+.checkout .right .pricedetails section{
+    margin-top: 23px;
+    margin-left: 17px;
+}
+
+.checkout .right .pricedetails section input[type='text']{
+    margin-top: 6px;
+    margin-left: -20px;
+    width: 226px;
+    height: 44px;
+    box-sizing: border-box;
+    background-color: rgba(242, 242, 242, 1);
+    border: 0px;
+    border-radius: 4px;
+}
+
+.checkout .right .pricedetails section button{
+    width: 132px;
+    height: 44px;
+    margin-top: 6px;
+    box-sizing: border-box;
+    margin-right: 16px;
+    border: 0px;
+    border-radius: 6px;
+    background-color: rgba(51, 51, 51, 1);
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.10px;
+    cursor: pointer;
+}
+
+
+
 
 
 /* Footer */
