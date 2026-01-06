@@ -2239,6 +2239,7 @@ fieldset label{
     margin: auto;
     border-radius: 5px;
     border: 1px solid rgba(224, 224, 224, 1);
+    margin-bottom: 360px;
 }
 
 .index .trips .flex{
@@ -2251,12 +2252,17 @@ fieldset label{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-top: 27px;
+    margin-top: 25px;
 }
 
 .index .trips .left div{
     display: flex;
-    gap: 10px;
+    gap: 12px;
+    margin-bottom: 26px;
+}
+
+.index .trips .left span{
+    color: rgba(235, 87, 87, 1);
 }
 
 .index .trips #photo{
@@ -2269,8 +2275,154 @@ fieldset label{
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.20px;
-    margin-bottom: 11px;
+    margin-bottom: 9px;
+    color: black;
 }
+
+.index .trips .left{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.27px;
+    color: gray;
+}
+
+.index .trips .left div{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.27px;
+    color: gray;
+}
+
+.index .trips .right{
+    text-align: right;
+    margin-right: 23px;
+    align-content: end;
+    margin-bottom: 22px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.18px;
+    text-align: right;
+    vertical-align: middle;
+    color: rgb(180, 180, 180);
+}
+
+.index .trips .right .button{
+    width: 143px;
+    height: 40px;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgba(47, 128, 237, 1);
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    margin-left: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.50px;
+    margin-top: 17px;
+}
+
+.index .trips .right a{
+    text-decoration: none;
+}
+
+.index .trips .right div{
+    display: flex;
+    justify-content: right;
+    gap: 8px;
+    align-items: center;
+}
+
+.index .trips .right div h4{
+    font-weight: 500;
+    font-size: 20px;
+    text-align: right;
+    vertical-align: middle;
+    color: black;
+    margin-bottom: 6px;
+    margin-top: 7px;
+}
+
+.index .trips .right div p{
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1%;
+    color: rgba(235, 87, 87, 1);
+    text-decoration: line-through;
+}
+
+
+
+/* Navegacion */
+
+.navegacion{
+    padding: 40px 0;
+}
+
+.navegacion article{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.navegacion .photo{
+    width: 322px;
+    height: 195px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.navegacion .photo img{
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.navegacion .photo img:hover{
+    margin-top: 25px;
+    margin-left: 30px;
+    transition: all 0.3s ease;
+}
+
+.navegacion .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegacion .content h2{
+    width: 220px;
+    margin-top: 100px;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+
+.navegacion .button{
+    width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: rgba(47, 128, 237, 1);
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 0.30px;
+}
+
+.navegacion .button:hover{
+    background-color: rgb(36, 99, 181);
+    transition: background-color 0.3s ease;
+}
+
+.navegacion a{
+    text-decoration: none;
+}
+
 
 
 
