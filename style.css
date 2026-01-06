@@ -2194,6 +2194,83 @@ fieldset label{
 }
 
 
+.index .griscolor{
+    background-color: #f4f4f4;
+    margin: 0 -100px;
+}
+
+
+.index .ponermargin{
+    background-color: #f4f4f4;
+    margin: 0 100px;
+}
+
+.index .ponermargin .warning{
+    margin-bottom: -18px;
+}
+
+.index .ponermargin .espacio{
+    padding-bottom: 20px;
+}
+
+.index .ponermargin .section-cards{
+    margin-bottom: 65px;
+}
+
+
+/* My Trips Section */
+
+.index .trips .title-card{
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0.30px;
+    margin-left: 105px;
+    padding-top: 58px;
+    margin-bottom: 25px;
+}
+
+
+.index .trips article{
+    width: 1030px;
+    height: 240px;
+    box-sizing: border-box;
+    background-color: white;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    border: 1px solid rgba(224, 224, 224, 1);
+}
+
+.index .trips .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index .trips .flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+
+.index .trips .left div{
+    display: flex;
+    gap: 10px;
+}
+
+.index .trips #photo{
+    margin-top: 19px;
+    margin-left: 19px;
+    margin-right: 24px;
+}
+
+.index .trips .flex .name{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.20px;
+    margin-bottom: 11px;
+}
 
 
 
