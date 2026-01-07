@@ -2454,23 +2454,23 @@ footer ul li{
     width: 187.5px;
 }
 
-footer h6{
+footer h3{
     text-align: center;
     margin-right: 60px;
 }
 
-footer #dos h6{
+footer #dos h3{
     margin-left: -18px;
 }
 
-footer #tres h6{
+footer #tres h3{
     margin-left: 60px;
     width: 150px;
     text-align: left;
     margin-right: 30px;
 }
 
-footer #cuatro h6{
+footer #cuatro h3{
     margin-left: 60px;
     width: 150px;
     text-align: left;
@@ -2509,7 +2509,7 @@ footer nav ul{
     margin-left: 61px;
 }
 
-footer nav h6{
+footer nav h3{
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
