@@ -2446,6 +2446,38 @@ footer{
     margin: 0px 100px;
 }
 
+footer #footer-footo ul li{
+    margin-left: -33px;
+}
+
+footer ul li{
+    width: 187.5px;
+}
+
+footer h6{
+    text-align: center;
+    margin-right: 60px;
+}
+
+footer #dos h6{
+    margin-left: -18px;
+}
+
+footer #tres h6{
+    margin-left: 60px;
+    width: 150px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+footer #cuatro h6{
+    margin-left: 60px;
+    width: 150px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+
 footer .title-footer h2{
     margin-top: 77px;
     margin-bottom: 13px;
@@ -2477,7 +2509,7 @@ footer nav ul{
     margin-left: 61px;
 }
 
-footer nav ul h6{
+footer nav h6{
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
