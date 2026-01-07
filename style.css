@@ -1409,7 +1409,7 @@ fieldset label{
     flex-direction: column;
 }
 
-.detail-index .Overview .up h4{
+.detail-index .Overview .up h3{
     font-weight: 500;
     font-size: 18px;
     line-height: 100%;
@@ -1827,6 +1827,10 @@ fieldset label{
     margin-right: 20px;
 }
 
+.checkout .left .row input:focus{
+   background-color: white;
+}
+
 .checkout .left .row input[type='tel']{
     width: 338px;
     height: 44px;
@@ -1836,6 +1840,10 @@ fieldset label{
     border: 0px;
     margin-top: 21px;
     margin-left: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    padding-left: 12px;
 }
 
 .checkout .left input[type='checkbox']{
@@ -1923,6 +1931,10 @@ fieldset label{
     border-radius: 4px;
     background-color: rgba(242, 242, 242, 1);
     border: 0px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.30px;
+    padding-left: 12px;
 }
 
 .checkout .left .payment .row select{
@@ -1941,6 +1953,18 @@ fieldset label{
     position: absolute;
     margin-top: 39px;
     margin-left: 124px;
+}
+
+.checkout .left .payment .row .tick-circle{
+    position: relative;
+    margin-left: 0px;
+    margin-top: 19px;
+}
+
+.checkout .left .payment .row .tick-circlee{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 19px;
 }
 
 .checkout .left .payment .row .flechaa{
@@ -2183,6 +2207,10 @@ fieldset label{
     background-color: rgba(242, 242, 242, 1);
     border: 0px;
     border-radius: 4px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.30px;
 }
 
 .checkout .right .pricedetails section button{
