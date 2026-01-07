@@ -2388,12 +2388,12 @@ fieldset label{
 #navegacion .photo img{
     margin-top: 40px;
     margin-left: 50px;
+    transition: all 0.3s ease;
 }
 
 #navegacion .photo img:hover{
     margin-top: 25px;
     margin-left: 30px;
-    transition: all 0.3s ease;
 }
 
 #navegacion .content{
