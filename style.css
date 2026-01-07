@@ -2361,11 +2361,19 @@ fieldset label{
     padding: 40px 0;
 }
 
+#navegacion .pareja{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
 #navegacion article{
     display: flex;
-    justify-content: center;
+    align-items: center;
     gap: 30px;
     margin-bottom: 40px;
+    flex-direction: column;
 }
 
 #navegacion .photo{
@@ -2403,7 +2411,7 @@ fieldset label{
 
 
 #navegacion .button{
-    width: 100px;
+    width: 322px;
     height: 40px;
     box-sizing: border-box;
     background-color: rgba(47, 128, 237, 1);
