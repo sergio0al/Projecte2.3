@@ -15,11 +15,12 @@ for(let i = 0; i < destinacionsDestacades.length; i++){
 
 const ofertesDiv = document.querySelector('#ofertesDiv')
 for(let i = 0; i < ofertes.length; i++){
-    ofertesDiv.innerHTML += `<article>
-    <img src="${ofertes[i].imatgeUrl}">
-    <div>
-    <h4>Sydeny’s 10 most fashionable 5 star hotels</h4>
-    <p>Browse the fastest growing tourism sector in the heart of Australia tourism capital ....</p>
-    </div>
+    ofertesDiv.innerHTML += `
+    <article>
+        <img src="${ofertes[i].imatgeUrl}">
+        <div>
+            <h4>Sydeny’s 10 most fashionable 5 star hotels</h4>
+            <p>Browse the fastest growing tourism sector in the heart of Australia tourism capital ....</p>
+        </div>
     </article>`
 }

@@ -44,3 +44,31 @@ export const ofertes = [
     imatgeUrl: "/images/travel-inspirations/destinations.png"
   },
 ]
+
+
+export const hotelsPopulars = [
+  {
+    id: "Lakeside-Motel-Warefront",
+    nom: "Lakeside Motel Warefront",
+    imatgeUrl: "/images/hotels/LakesideMotelWarefront.png",
+    propietatsCount: 2246,
+  },
+  {
+    id: "Recce-Graham-resort",
+    nom: "Recce Graham resort",
+    imatgeUrl: "/images/hotels/RecceGrahamResort.png",
+    propietatsCount: 1278,
+  },
+  {
+    id: "Fireside-Dinners",
+    nom: "Fireside Dinners",
+    imatgeUrl: "/images/hotels/FiresideDinners.png",
+    propietatsCount: 480,
+  },
+  {
+    id: "Oculous-Inn-Stay",
+    nom: "Oculous Inn Stay",
+    imatgeUrl: "/images/hotels/OculousInnStay.png",
+    propietatsCount: 320,
+  },
+]
