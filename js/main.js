@@ -1,5 +1,6 @@
 import { destinacionsDestacades } from "./data.js";
 import { ofertes } from "./data.js";
+import { hotelsPopulars } from "./data.js";
 
 
 const destinacionsDestacadesDiv = document.querySelector('#destinacionsDestacadesDiv');
@@ -23,4 +24,13 @@ for(let i = 0; i < ofertes.length; i++){
             <p>Browse the fastest growing tourism sector in the heart of Australia tourism capital ....</p>
         </div>
     </article>`
+}
+
+const hotelsPopularsDiv = document.querySelector("#hotelsPopularsDiv")
+for(let i = 0; i < hotelsPopulars.length; i++){
+    hotelsPopularsDiv.innerHTML += `<article>
+        <img src="${hotelsPopulars[i].imatgeUrl}">
+        <h4 class="name">${hotelsPopulars[i].nom}</h4>
+        <p class="properties">${hotelsPopulars[i].propietatsCount} properties</p>
+    <article>`
 }
