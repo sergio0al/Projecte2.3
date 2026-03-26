@@ -76,86 +76,89 @@ export const hotelsPopulars = [
 ]
 
 
+
+
 // ------------- Results -------------
-export const searchResultsData = {
-  results: [
-    {
-      hotelId: "lakeside-motel-warefront",
-      name: "Lakeside Motel Warefront",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      badge: "Book now and receive 15% off",
-      pricePerNight: 130,
-      descuento: 150
-    },
-    {
-      hotelId: "julia-dens-resort",
-      name: "Julia Dens Resort",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      pricePerNight: "$240",
-    },
-    {
-      hotelId: "achmin-septer-hotel",
-      name: "Achmin Septer Hotel",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      badge: "Receive 30% discount on extra nights",
-      pricePerNight: "$300",
-    },
-    {
-      hotelId: "regindford-hotel",
-      name: "Regindford Hotel",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      pricePerNight: "$120",
-    },
-    {
-      hotelId: "shangri-open-house",
-      name: "Shangri Open House",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      pricePerNight: "$145",
-    },
-    {
-      hotelId: "ocean-waves-resort",
-      name: "Ocean Waves Resort",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      pricePerNight: "$310",
-    },
-    {
-      hotelId: "main-city-frontier",
-      name: "Main City frontier",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      badge: "Receive 30% discount on extra nights",
-      pricePerNight: "$190",
-      oldPrice: "$200",
-    },
-    {
-      hotelId: "lakeside-motel-warefront",
-      name: "Lakeside Motel Warefront",
-      rating: 4.5,
-      reviewsCount: 1200,
-      description:
-        "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
-      pricePerNight: "$300",
-      oldPrice: "$200",
-    },
-  ],
-};
+export const searchResultsData = [
+  {
+    hotelId: "LakesideMotelWarefront",
+    name: "Lakeside Motel Warefront",
+    rating: 4.5,
+    reviewsCount: 1200,
+    text: "Live a little and celbrate with champagne",
+    description:
+      "Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies",
+    badge: 15,
+    pricePerNight: 130,
+    descuento: 150
+  },
+  {
+    hotelId: "JuliaDensResort",
+    name: "Julia Dens Resort",
+    rating: 4.5,
+    reviewsCount: 1200,
+    text: "Live a little and celbrate with champagne",
+    description:
+      "Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies",
+    pricePerNight: "$240",
+  },
+  {
+    hotelId: "achmin-septer-hotel",
+    name: "Achmin Septer Hotel",
+    rating: 4.5,
+    reviewsCount: 1200,
+    text: "Live a little and celbrate with champagne",
+    description:
+      "Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies",
+    badge: 30,
+    pricePerNight: "$300",
+  },
+  {
+    hotelId: "regindford-hotel",
+    name: "Regindford Hotel",
+    rating: 4.5,
+    reviewsCount: 1200,
+    description:
+      "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
+    pricePerNight: "$120",
+  },
+  {
+    hotelId: "shangri-open-house",
+    name: "Shangri Open House",
+    rating: 4.5,
+    reviewsCount: 1200,
+    description:
+      "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
+    pricePerNight: "$145",
+  },
+  {
+    hotelId: "ocean-waves-resort",
+    name: "Ocean Waves Resort",
+    rating: 4.5,
+    reviewsCount: 1200,
+    description:
+      "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
+    pricePerNight: "$310",
+  },
+  {
+    hotelId: "main-city-frontier",
+    name: "Main City frontier",
+    rating: 4.5,
+    reviewsCount: 1200,
+    description:
+      "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
+    badge: "Receive 30% discount on extra nights",
+    pricePerNight: "$190",
+    oldPrice: "$200",
+  },
+  {
+    hotelId: "lakeside-motel-warefront",
+    name: "Lakeside Motel Warefront",
+    rating: 4.5,
+    reviewsCount: 1200,
+    description:
+      "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
+    pricePerNight: "$300",
+    oldPrice: "$200",
+  },
+];
