@@ -78,30 +78,6 @@ export const hotelsPopulars = [
 
 // ------------- Results -------------
 export const searchResultsData = {
-  filters: {
-    budgetRanges: [
-      { min: 0, max: 200, count: 200 },
-      { min: 250, max: 500, count: 19 },
-      { min: 500, max: 1000, count: 12 },
-      { min: 1000, max: 2000, count: 12 },
-      { min: 2000, max: 8000, count: 230 },
-    ],
-    popularFilters: [
-      { id: "free-cancellation", label: "Free cancellation", count: 200 },
-      { id: "beachfront", label: "Beach front", count: 100 },
-      { id: "hot-tub", label: "Hot tub/Jacuzzi", count: 15 },
-      { id: "no-credit-card", label: "Book without credit card", count: 12 },
-      { id: "pet-friendly", label: "Pet friendly", count: 200 },
-    ],
-    activities: [
-      { id: "fishing", label: "Fishing", count: 200 },
-      { id: "hiking", label: "Hiking", count: 100 },
-      { id: "beach", label: "Beach", count: 15 },
-      { id: "cycling", label: "Cycling", count: 12 },
-      { id: "sauna", label: "Sauna", count: 12 },
-      { id: "night-lights", label: "Night lights", count: 12 },
-    ],
-  },
   results: [
     {
       hotelId: "lakeside-motel-warefront",
@@ -111,7 +87,8 @@ export const searchResultsData = {
       description:
         "Live a little and relax with champagne\nReimagine a divine escape in the heart of the city with Parkside Conservation, parking and a late checkout. Only include Free cancellation applies",
       badge: "Book now and receive 15% off",
-      pricePerNight: "$130",
+      pricePerNight: 130,
+      descuento: 150
     },
     {
       hotelId: "julia-dens-resort",

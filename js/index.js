@@ -3,7 +3,7 @@ import { ofertes } from "./data.js";
 import { hotelsPopulars } from "./data.js";
 
 
-const destinacionsDestacadesDiv = document.querySelector('#destinacionsDestacadesDiv');
+const destinacionsDestacadesDiv = document.querySelector('.destinacionsDestacadesDiv');
 for(let i = 0; i < destinacionsDestacades.length; i++){
    destinacionsDestacadesDiv.innerHTML += `
     <article>
@@ -14,7 +14,7 @@ for(let i = 0; i < destinacionsDestacades.length; i++){
 }
 
 
-const ofertesDiv = document.querySelector('#ofertesDiv')
+const ofertesDiv = document.querySelector('.ofertesDiv')
 for(let i = 0; i < ofertes.length; i++){
     ofertesDiv.innerHTML += `
     <article>
@@ -26,7 +26,7 @@ for(let i = 0; i < ofertes.length; i++){
     </article>`
 }
 
-const hotelsPopularsDiv = document.querySelector("#hotelsPopularsDiv")
+const hotelsPopularsDiv = document.querySelector(".hotelsPopularsDiv")
 for(let i = 0; i < hotelsPopulars.length; i++){
     hotelsPopularsDiv.innerHTML += `<article>
         <img src="${hotelsPopulars[i].imatgeUrl}">
@@ -34,3 +34,6 @@ for(let i = 0; i < hotelsPopulars.length; i++){
         <p class="properties">${hotelsPopulars[i].propietatsCount} properties</p>
     <article>`
 }
+
+
+
