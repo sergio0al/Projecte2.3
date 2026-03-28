@@ -2,7 +2,7 @@ import { searchResultsData } from "./data.js"
 
 
 const resultCardsDiv = document.querySelector("#resultCardsDiv");
-for(let i = 0; i < searchResultsData.results.length; i++){
+for(let i = 0; i < searchResultsData.length; i++){
     resultCardsDiv.innerHTML += `
     <article class="card">
         <div class="margin">
@@ -28,7 +28,7 @@ for(let i = 0; i < searchResultsData.results.length; i++){
                         <p class="discount">5% off</p>
                         <p class="rooms">1 room 2 days</p>
                         <div class="div-price">
-                            ${(searchResultsData.results[i].descuento) ? `<p class="price-discount">$150</p>` : ""}
+                            ${(searchResultsData[i].descuento) ? `<p class="price-discount">$150</p>` : ""}
                             <p class="price">$130</p>
                         </div>
                         <p class="taxes">Includes taxes and fees</p>

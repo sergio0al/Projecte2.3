@@ -78,6 +78,7 @@ export const hotelsPopulars = [
 
 
 
+
 // ------------- Results -------------
 export const searchResultsData = [
   {
