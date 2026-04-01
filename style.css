@@ -370,7 +370,6 @@ main{
 }
 
 
-
 .index .travel-inspirations{
     display: flex;
     justify-content: space-between;
@@ -2266,6 +2265,9 @@ fieldset label{
     margin-bottom: 25px;
 }
 
+.index .trips{
+    margin-bottom: 250px;
+}
 
 .index .trips article{
     width: 1030px;
@@ -2276,7 +2278,7 @@ fieldset label{
     margin: auto;
     border-radius: 5px;
     border: 1px solid rgba(224, 224, 224, 1);
-    margin-bottom: 360px;
+    margin-bottom: 30px;
 }
 
 .index .trips .flex{
