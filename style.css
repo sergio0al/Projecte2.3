@@ -2393,6 +2393,18 @@ fieldset label{
 }
 
 
+.history{
+    width: 295px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.history img{
+    height: 300px;
+}
+
+
 /* Welcome Card */
 
 #welcome{

@@ -26,6 +26,7 @@ for(let i = 0; i < ofertes.length; i++){
     </article>`
 }
 
+
 const hotelsPopularsDiv = document.querySelector(".hotelsPopularsDiv")
 for(let i = 0; i < hotelsPopulars.length; i++){
     hotelsPopularsDiv.innerHTML += `<article>

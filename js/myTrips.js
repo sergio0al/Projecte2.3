@@ -37,7 +37,9 @@ const sectionCards = document.querySelector(".section-cards")
 for(let i = 0; i < destinacionsDestacades.length ; i++){
     sectionCards.innerHTML += `
     <article>
-        <img src="${destinacionsDestacades[i].imatgeUrl}" alt="${destinacionsDestacades[i].nom}">
+        <div class="history">
+            <img src="${destinacionsDestacades[i].imatgeUrl}" alt="${destinacionsDestacades[i].nom}">
+        </div>
         <h4 class="name">${destinacionsDestacades[i].nom}</h4>
         <p class="properties">${destinacionsDestacades[i].propietatsCount} properties</p>
     </article>`; 
