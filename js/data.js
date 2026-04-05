@@ -183,13 +183,13 @@ export const myTripsData = [
 // ------------- checkout -------------
 export const checkoutData = [
   {
-    name: "dwa",
-    photo: "dww",
+    name: "Lakeside Warefront",
+    photo: "LakesideMotelWarefront",
     rating: 4.5,
     reviewsCount: 1200,
     checkIn: "Sunday, March 20, 2026",
     checkOut: "Tuesday, March 30, 2022",
     night: 45,
-    price: 130,
-  }
+    price: 200,
+  },
 ]

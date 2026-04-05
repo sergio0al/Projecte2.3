@@ -1956,14 +1956,16 @@ fieldset label{
 
 .checkout .left .payment .row .tick-circle{
     position: relative;
-    margin-left: 0px;
+    margin-left: -5px;
     margin-top: 19px;
+    width: 20px;
 }
 
 .checkout .left .payment .row .tick-circlee{
     position: relative;
     margin-left: 20px;
     margin-top: 19px;
+    width: 20px;
 }
 
 .checkout .left .payment .row .flechaa{
@@ -2078,6 +2080,29 @@ fieldset label{
     border-radius: 6px;
     margin-left: 30px;
     margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+.checkout .right .hotel{
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-top: -20px;
+    margin-bottom: 35px;
+}
+
+.checkout .right .hotel .borderPhoto{
+    width: 400px;
+    height: 180px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.checkout .right .hotel .hotelPhoto{
+    width: 400px;
 }
 
 .checkout .right .hotel div{
@@ -2123,7 +2148,6 @@ fieldset label{
     height: 55px;
     background-color: rgba(133, 224, 171, 1);
     margin-left: 30px;
-    margin-top: 30px;
     box-sizing: border-box;
     padding-left: 18px;
     align-content: center;
