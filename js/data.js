@@ -178,3 +178,18 @@ export const myTripsData = [
     price: 130,
   },
 ]
+
+
+// ------------- checkout -------------
+export const checkoutData = [
+  {
+    name: "dwa",
+    photo: "dww",
+    rating: 4.5,
+    reviewsCount: 1200,
+    checkIn: "Sunday, March 20, 2026",
+    checkOut: "Tuesday, March 30, 2022",
+    night: 45,
+    price: 130,
+  }
+]
