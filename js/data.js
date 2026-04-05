@@ -193,3 +193,42 @@ export const checkoutData = [
     price: 200,
   },
 ]
+
+
+// ------------- detail -------------
+export const detailData = {
+  facilities: [
+    {id: "wifi", text: "Free wifi"},
+    {id: "air", text: "Air Conditioning"},
+    {id: "car", text: "Parking available"},
+    {id: "business", text: "Business Services"},
+    {id: "pool", text: "Swimming pool"},
+    {id: "like", text: "Top rated in area"},
+  ],
+  area: [
+    {icon: "airplane", text: "Hotel Penselvenyia", distance: 30},
+    {icon: "graylocation", text: "Travis Bakery store house", distance: 30},
+    {icon: "graylocation", text: "Olivia Johnson Garden", distance: 30},
+    {icon: "graylocation", text: "Norman Opera Circus", distance: 30},
+    {icon: "graylocation", text: "Rockdeset hotel", distance: 30},
+  ],
+  hotel: {
+      name: "Lakeside Motel Warefront",
+      photo1: "photo1",
+      photo2: "photo2",
+      photo3: "photo3",
+      rating: 4.5,
+      reviewsCount: 1200,
+      direction: "Lorem ipsum road, Tantruim-2322, Melbourne, Australia",
+      description: 
+      `Featuring free WiFi throughout the property, Lakeside Motel Waterfront offers accommodations in Lakes 
+      Entrance, 19 mi from Bairnsdale. 
+      
+      Free private parking is available on site. Each room at this motel is air conditioned and comes with a flat-
+      screen TV. You will find a kettle, toaster and a microwave in the room.
+      
+      Each room is fitted with a private bathroom. Guests have access to barbecue facilities and a lovely large 
+      lawn area. Metung is 6.8 mi from Lakeside Motel Waterfront, while Paynesville is 14 mi from the property. 
+      Couples in particular like the location – they rated it 9.2 for a two-person trip.`
+    },
+}

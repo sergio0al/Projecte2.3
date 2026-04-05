@@ -38,3 +38,4 @@ for(let i = 0; i < hotelsPopulars.length; i++){
 
 
 
+
