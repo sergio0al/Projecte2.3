@@ -1305,6 +1305,27 @@ fieldset label{
     margin: 0 100px;
 }
 
+.detail-index #divPhoto1{
+    width: 820px;
+    height: 452px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.detail-index #divPhoto2{
+    width: 400px;
+    height: 218px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.detail-index #divPhoto3{
+    width: 400px;
+    height: 218px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
 .detail-index .photos div{
     display: flex;
     flex-direction: column;

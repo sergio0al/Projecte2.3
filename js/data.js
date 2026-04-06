@@ -214,9 +214,9 @@ export const detailData = {
   ],
   hotel: {
       name: "Lakeside Motel Warefront",
-      photo1: "photo1",
-      photo2: "photo2",
-      photo3: "photo3",
+      photo1: "https://replocations.com/wp-content/uploads/2024/05/S012906RL-111.jpg",
+      photo2: "https://media.istockphoto.com/id/1293479700/es/foto/pradera.jpg?s=612x612&w=0&k=20&c=53-Xa943m3SlqnWpNnYVKAoQQtm9mX_hEJOnmlxPxmc=",
+      photo3: "https://s2.ppllstatics.com/ideal/www/multimedia/202103/29/media/cortadas/descampado%20incendio-kXvC-U1309788363277mD-1248x770@Ideal.jpg",
       rating: 4.5,
       reviewsCount: 1200,
       direction: "Lorem ipsum road, Tantruim-2322, Melbourne, Australia",

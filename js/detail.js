@@ -37,6 +37,10 @@ for (let i = 0; i < detailData.area.length; i++) {
     </div>`
 }
 
+document.querySelector("#divPhoto1").innerHTML = `<img src="${detailData.hotel.photo1}" width="820" height="452" alt="photo1">`
+document.querySelector("#divPhoto2").innerHTML = `<img src="${detailData.hotel.photo2}" width="820" height="452" alt="photo1">`
+document.querySelector("#divPhoto3").innerHTML = `<img src="${detailData.hotel.photo3}" width="820" height="452" alt="photo1">`
+
 document.querySelector(".name-hotel").innerHTML = detailData.hotel.name
 document.querySelector(".ratings").innerHTML = `<img src="images/icons/rating.png" alt="stars" height="20"><p>${detailData.hotel.rating} (${detailData.hotel.reviewsCount} Reviews)</p>`
 document.querySelector(".location").innerHTML = `<img src="images/icons/location.svg" alt="location" height="20"><p>${detailData.hotel.direction}</p>`
