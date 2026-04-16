@@ -370,6 +370,7 @@ main{
 }
 
 
+
 .index .travel-inspirations{
     display: flex;
     justify-content: space-between;
@@ -1305,27 +1306,6 @@ fieldset label{
     margin: 0 100px;
 }
 
-.detail-index #divPhoto1{
-    width: 820px;
-    height: 452px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.detail-index #divPhoto2{
-    width: 400px;
-    height: 218px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.detail-index #divPhoto3{
-    width: 400px;
-    height: 218px;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
 .detail-index .photos div{
     display: flex;
     flex-direction: column;
@@ -1977,16 +1957,14 @@ fieldset label{
 
 .checkout .left .payment .row .tick-circle{
     position: relative;
-    margin-left: -5px;
+    margin-left: 0px;
     margin-top: 19px;
-    width: 20px;
 }
 
 .checkout .left .payment .row .tick-circlee{
     position: relative;
     margin-left: 20px;
     margin-top: 19px;
-    width: 20px;
 }
 
 .checkout .left .payment .row .flechaa{
@@ -2101,29 +2079,6 @@ fieldset label{
     border-radius: 6px;
     margin-left: 30px;
     margin-top: -20px;
-    margin-bottom: 35px;
-}
-
-.checkout .right .hotel{
-    width: 400px;
-    height: 400px;
-    box-sizing: border-box;
-    background-color: white;
-    border-radius: 6px;
-    margin-left: 30px;
-    margin-top: -20px;
-    margin-bottom: 35px;
-}
-
-.checkout .right .hotel .borderPhoto{
-    width: 400px;
-    height: 180px;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-}
-
-.checkout .right .hotel .hotelPhoto{
-    width: 400px;
 }
 
 .checkout .right .hotel div{
@@ -2169,6 +2124,7 @@ fieldset label{
     height: 55px;
     background-color: rgba(133, 224, 171, 1);
     margin-left: 30px;
+    margin-top: 30px;
     box-sizing: border-box;
     padding-left: 18px;
     align-content: center;
@@ -2310,9 +2266,6 @@ fieldset label{
     margin-bottom: 25px;
 }
 
-.index .trips{
-    margin-bottom: 250px;
-}
 
 .index .trips article{
     width: 1030px;
@@ -2323,7 +2276,7 @@ fieldset label{
     margin: auto;
     border-radius: 5px;
     border: 1px solid rgba(224, 224, 224, 1);
-    margin-bottom: 30px;
+    margin-bottom: 360px;
 }
 
 .index .trips .flex{
@@ -2435,18 +2388,6 @@ fieldset label{
     letter-spacing: 1%;
     color: rgba(235, 87, 87, 1);
     text-decoration: line-through;
-}
-
-
-.history{
-    width: 295px;
-    height: 300px;
-    overflow: hidden;
-    border-radius: 8px;
-}
-
-.history img{
-    height: 300px;
 }
 
 
