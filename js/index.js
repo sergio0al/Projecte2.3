@@ -1,8 +1,3 @@
-import { destinacionsDestacades } from "./data.js";
-import { ofertes } from "./data.js";
-import { hotelsPopulars } from "./data.js";
-
-
 const destinacionsDestacadesDiv = document.querySelector('.destinacionsDestacadesDiv');
 for(let i = 0; i < destinacionsDestacades.length; i++){
    destinacionsDestacadesDiv.innerHTML += `
