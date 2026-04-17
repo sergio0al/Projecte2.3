@@ -16,7 +16,6 @@ async function carregarSupaBase() {
     let popularRes = await client.from("popular").select("*");
     let popular = popularRes.data || [];
     generarPopular(popular);
-
 }
 
 
