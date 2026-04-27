@@ -1057,6 +1057,18 @@ fieldset label{
     margin-top: 24px;
 }
 
+.result  .imgHotel{
+    width: 385px;
+    height: 200px;
+    overflow: hidden; 
+    min-width: 280px;
+    border-radius: 5px;
+}
+
+.result .div-cards .imgHotel img{
+    max-width: 385px;
+}
+
 .result .card{
     width: 913px;
     height: 238px;

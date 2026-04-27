@@ -23,8 +23,8 @@ function generarResultados(resultados){
         destinationsContainer.innerHTML += `
         <article class="card">
             <div class="margin">
-                <div>
-                    <img src="images/resultados/${resultados[i].id}.png" alt="Lakeside Motel Warefront">
+                <div class="imgHotel">
+                    <img src="${resultados[i].photo}" alt="Lakeside Motel Warefront">
                 </div>
                 <div class="card-content">
                     <div class="left">
