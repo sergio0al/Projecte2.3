@@ -1276,6 +1276,7 @@ fieldset label{
     line-height: 20px;
     letter-spacing: 0.30px;
     margin-bottom: -240px;
+    cursor: pointer;
 }
 
 .result .more-results a{
@@ -2615,6 +2616,46 @@ fieldset label{
 
 
 
+.formHotel{
+    padding: 100px 0px;
+    margin: auto;
+}
+
+.formHotel button{
+    width: 150px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #2f80ed;
+    color: white;
+    font-weight: bold;
+}
+
+.formHotel .inputText{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    gap: 7px;
+}
+
+.formHotel .inputText input{
+    width: 300px;
+    height: 25px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #f2f2f2;
+}
+
+.formHotel .inputSelect{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+
+
 
 /* Footer */
 
@@ -2750,3 +2791,6 @@ footer .copy span{
     font-size: 19px;
     margin-right: 3px;
 }
+
+
+

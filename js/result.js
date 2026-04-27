@@ -2,11 +2,18 @@ let supabaseUrl = "https://ndxpcylicovkaaoxydhk.supabase.co";
 let supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5keHBjeWxpY292a2Fhb3h5ZGhrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzNDMwMTAsImV4cCI6MjA5MTkxOTAxMH0.eCodC6u0WsPGsJk-CxBTRdyXA9E0xgwxLrWiNgjYWpE";
 let client = supabase.createClient(supabaseUrl, supabaseAnonKey);
 
+let moreResults = document.querySelector("#moreResults")
+
+moreResults.addEventListener('click', cargarSupaBase)
+
+let bottom = 0;
+let top = 5;
 
 async function cargarSupaBase(){
-    let resultadosRed = await client.from("resultados").select("*");
+    let resultadosRed = await client.from("resultados").select("*").range(bottom, bottom + top - 1);
     let resultados = resultadosRed.data || [];
     generarResultados(resultados);
+    bottom += top;
 }
 
 
