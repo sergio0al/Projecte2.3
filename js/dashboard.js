@@ -30,7 +30,7 @@ addButton.addEventListener('click', async function(e){
         photo: photo.value,
     }
 
-    await client.from('resultados').insert([newData])
+    let {data, error } = await client.from('resultados').insert([newData])
 
 
 })
