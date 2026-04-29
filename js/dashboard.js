@@ -11,6 +11,7 @@ let rooms = document.querySelector("#rooms")
 let days = document.querySelector("#days")
 
 let addButton = document.querySelector("#addButton")
+let errorMessage = document.querySelector("#error")
 
 addButton.addEventListener('click', async function(e){ 
 
@@ -30,7 +31,17 @@ addButton.addEventListener('click', async function(e){
         photo: photo.value,
     }
 
-    let {data, error } = await client.from('resultados').insert([newData])
+    let {data, error} = await client.from('resultados').insert([newData])
 
+    if(error){
+        errorMessage.textContent = "Algo ha salido mal! No se ha podido añadir tu anunció."
+    }else{
+        errorMessage.textContent = ""
+        name.value = ""
+        description.value = ""
+        price.value = ""
+        photo.value = ""
+        
+    }
 
 })

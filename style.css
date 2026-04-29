@@ -2629,7 +2629,7 @@ fieldset label{
 
 
 .formHotel{
-    padding: 70px 0px;
+    padding: 70px 0px 130px 0px;
 }
 
 .formHotel button{
@@ -2673,6 +2673,11 @@ fieldset label{
     background-color: #f2f2f2;
 }
 
+.formHotel #error{
+    color: red;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
 
 
 
