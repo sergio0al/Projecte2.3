@@ -2630,6 +2630,7 @@ fieldset label{
 
 .formHotel{
     padding: 70px 0px 130px 0px;
+    width: 300px;
 }
 
 .formHotel button{
@@ -2640,6 +2641,7 @@ fieldset label{
     background-color: #2f80ed;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .formHotel .inputText{
@@ -2679,6 +2681,9 @@ fieldset label{
     letter-spacing: 2px;
 }
 
+.rightContainerPreview{
+    padding: 70px 0px 130px 60px;
+}
 
 
 /* Footer */
