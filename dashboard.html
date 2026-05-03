@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <link rel="stylesheet" href="style.css">
     <title>Projecte2 - Dashboard</title>
 </head>
@@ -32,57 +33,55 @@
 
         <form class="formHotel">
             <div class="inputText">
-                <label for="name">Nombre</label>
-                <input type="text" id="name" name="Nombre">
+                <label for="name">Nombre <span class="obligatorio">*</span></label>
+                <input type="text" id="name" name="Nombre" required autofocus>
             </div>
 
             <div class="inputText">
-                <label for="description">Descripción</label>
-                <textarea id="description" name="Descripción"></textarea>
+                <label for="description">Descripción <span class="obligatorio">*</span></label>
+                <textarea id="description" name="Descripción" required></textarea>
             </div>
 
             <div class="inputText">
-                <label for="price">Precio</label>
-                <input type="number" id="price" name="Precio">
+                <label for="price">Precio <span class="obligatorio">*</span></label>
+                <input type="number" id="price" name="Precio" required>
             </div>
 
             <div class="inputText">
-                <label for="photo">Foto (URL)</label>
-                <input type="url" id="photo" name="Foto">
+                <label for="photo">Foto (URL) <span class="obligatorio">*</span></label>
+                <input type="url" id="photo" name="Foto" required>
             </div>
 
             <button type="submit" id="addButton">Añadir</button>
             <p id="error"></p>
+            <p id="correcto"></p>
         </form>
 
         <div class="rightContainerPreview">
             <h2>VISTA PREVIA</h2>
             <article class="card">
                 <div class="margin">
-                    <div>
-                        <img src="images/resultados/LakesideMotelWarefront.png" alt="Lakeside Motel Warefront">
+                    <div id="imgContainer">
+                        
                     </div>
                     <div class="card-content">
                         <div class="left">
-                            <h3>Lakeside Motel Warefront</h3>
+                            <h3 id="titlePreview">Titulo</h3>
                             <div class="ratings">
                                 <img src="images/icons/rating.png" alt="stars">
                                 <p>4.5 (1200 Reviews)</p>
                             </div>
-                            <p class="texto1">Live a little and celbrate with champagne</p>
-                            <p class="texto2">Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies</p>
+                            <p class="texto2" id="descriptionPreview">Descripción de ejemplo. Aquí se puede visualizar la descripción de tu oferta antes de ser añadida.</p>
                             <a class="button" href="detail.html">See availability</a>
                         </div>
                         <div class="right">
                             <div class="offerd">
-                                <p class="discount-15">Book now and receive 15% off</p>
+                              
                             </div>
                             <div class="price-section">
-                                <p class="discount">5% off</p>
                                 <p class="rooms">1 room 2 days</p>
                                 <div class="div-price">
-                                    <p class="price-discount">$150</p>
-                                    <p class="price">$130</p>
+                                    <p class="price" id="pricePreview">$0</p>
                                 </div>
                                 <p class="taxes">Includes taxes and fees</p>
                             </div>

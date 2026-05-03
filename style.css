@@ -448,19 +448,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Formularios Main */
 
 .formularios form{
@@ -2630,12 +2617,12 @@ fieldset label{
 
 .formHotel{
     padding: 70px 0px 130px 0px;
-    width: 300px;
+    width: 263.5px;
 }
 
 .formHotel button{
-    width: 150px;
-    height: 30px;
+    width: 280px;
+    height: 35px;
     border: 0px;
     border-radius: 5px;
     background-color: #2f80ed;
@@ -2652,7 +2639,7 @@ fieldset label{
 }
 
 .formHotel .inputText input{
-    width: 300px;
+    width: 280px;
     height: 30px;
     box-sizing: border-box;
     padding: 0px 10px;
@@ -2663,9 +2650,9 @@ fieldset label{
 }
 
 .formHotel .inputText textarea{
-    max-width: 300px;
+    max-width: 280px;
     max-height: 300px;
-    min-width: 300px;
+    min-width: 280px;
     min-height: 300px;
     box-sizing: border-box;
     padding: 10px 10px;
@@ -2679,6 +2666,22 @@ fieldset label{
     color: red;
     margin-top: 20px;
     letter-spacing: 2px;
+    height: 20px;
+}
+
+.formHotel .obligatorio{
+    color: red;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    height: 20px;
+}
+
+
+.formHotel #correcto{
+    color: rgb(111, 223, 7);
+    margin-top: -20px;
+    letter-spacing: 2px;
+    height: 20px;
 }
 
 .rightContainerPreview{
@@ -2747,6 +2750,11 @@ fieldset label{
 }
 
 .rightContainerPreview .card .left .texto2 {
+    min-width: 200px;
+    max-width: 350px;
+    min-height: 55px;
+    max-height: 55px;
+    overflow: auto;
     color: gray;
     font-weight: 400;
     font-size: 13px;
@@ -2754,6 +2762,7 @@ fieldset label{
     letter-spacing: 0.26px;
     padding-top: 1px;
     padding-bottom: 10px;
+    align-content: end;
 }
 
 .rightContainerPreview .card .left .button{
@@ -2887,6 +2896,19 @@ fieldset label{
     letter-spacing: 0.20px;
 }
 
+.rightContainerPreview #imgContainer{
+    min-width: 281px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.rightContainerPreview #imgContainer img{
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
 
 
 /* Footer */
