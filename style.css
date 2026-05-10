@@ -449,19 +449,6 @@ main{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Formularios Main */
 
 .formularios form{
@@ -1058,6 +1045,19 @@ fieldset label{
     margin-top: 24px;
 }
 
+.result  .imgHotel{
+    width: 385px;
+    height: 200px;
+    overflow: hidden; 
+    min-width: 280px;
+    border-radius: 5px;
+}
+
+.result .div-cards .imgHotel img{
+    max-width: 385px;
+}
+
+
 .result .card{
     width: 913px;
     height: 238px;
@@ -1277,6 +1277,7 @@ fieldset label{
     line-height: 20px;
     letter-spacing: 0.30px;
     margin-bottom: -240px;
+    cursor: pointer;
 }
 
 .result .more-results a{
@@ -2556,6 +2557,307 @@ fieldset label{
 
 
 
+.formHotel{
+    padding: 70px 0px 130px 0px;
+    width: 263.5px;
+}
+
+.formHotel button{
+    width: 280px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #2f80ed;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formHotel .inputText{
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    gap: 7px;
+}
+
+.formHotel .inputText input{
+    width: 280px;
+    height: 30px;
+    box-sizing: border-box;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #f2f2f2;
+}
+
+.formHotel .inputText textarea{
+    max-width: 280px;
+    max-height: 300px;
+    min-width: 280px;
+    min-height: 300px;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 0px;
+    background-color: #f2f2f2;
+}
+
+.formHotel #error{
+    color: red;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    height: 20px;
+}
+
+.formHotel .obligatorio{
+    color: red;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    height: 20px;
+}
+
+.formHotel #error{
+    margin-top: 20px;
+    letter-spacing: 2px;
+    color: red;
+}
+
+
+.formHotel #correcto{
+    color: rgb(111, 223, 7);
+    margin-top: -20px;
+    letter-spacing: 2px;
+    height: 20px;
+}
+
+.rightContainerPreview{
+    padding: 70px 0px 130px 60px;
+}
+
+.rightContainerPreview .card{
+    margin-top: 19px;
+    width: 913px;
+    height: 238px;
+    border: 1px solid rgba(224, 224, 224, 1);
+    border-radius: 5px;
+    margin-bottom: 24px;
+}
+
+.rightContainerPreview .card .margin{
+    margin: 19px 19px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightContainerPreview .card .card-content{
+    width: 670px;
+    margin-left: 24px;
+    display: flex;
+}
+
+
+.rightContainerPreview .card .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 188px;
+    width: 390px;
+    padding-top: 8px;
+}
+
+.rightContainerPreview .card .left h3 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.20px;
+}
+
+.ratings{
+    display: flex;
+    gap: 12px;
+    padding-top: 4px;
+}
+
+.ratings p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.28px;
+    padding-top: 1px;
+}
+
+.rightContainerPreview .card .left .texto1 {
+    color: gray;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 90%;
+    letter-spacing: 0.26px;
+    padding-top: 13px;
+    margin-top: 1px;
+}
+
+.rightContainerPreview .card .left .texto2 {
+    min-width: 200px;
+    max-width: 350px;
+    min-height: 55px;
+    max-height: 55px;
+    overflow: auto;
+    color: gray;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.26px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    align-content: end;
+}
+
+.rightContainerPreview .card .left .button{
+    width: 137px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: rgba(47, 128, 237, 1);
+    text-align: center;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.50px;
+}
+
+/* Right Card */
+
+.rightContainerPreview .card .right{
+    width: 190px;
+    margin-right: 108px;
+    padding-top: 4px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rightContainerPreview .card .right .discount-15{
+    background-color: #eb5757;
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    box-sizing: border-box;
+    padding-top: 1px;
+    letter-spacing: 0.43px;
+    text-align: center;
+    border-radius: 6px;
+    width: 190px;
+    height: 26px;
+    align-content: center;
+}
+
+.rightContainerPreview .card .right .discount-30{
+    background-color: rgba(242, 153, 74, 1);
+    color: white;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    box-sizing: border-box;
+    padding-top: 1px;
+    letter-spacing: 0.43px;
+    text-align: center;
+    border-radius: 6px;
+    width: 236px;
+    height: 26px;
+    align-content: center;
+    margin-left: -50px;
+}
+
+.rightContainerPreview .card .right .price-section{
+    text-align: right;
+}
+
+.rightContainerPreview .card .right .price-section .discount{
+    background-color: rgba(33, 150, 83, 1);
+    width: 54px;
+    height: 26px;
+    border-radius: 6px;
+    color: white;
+    margin-left: 136px;
+    text-align: center;
+    align-content: center;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+    padding-top: 1px;
+}
+
+.rightContainerPreview .card .right .price-section .rooms{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.20px;
+    text-align: right;
+    vertical-align: middle;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.rightContainerPreview .card .right .price-section .taxes{
+    color: gray;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.12px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.rightContainerPreview .card .right .price-section .div-price{
+    display: flex;
+    justify-content: right;
+    padding-bottom: 9px;
+    align-items: center;
+}
+
+.rightContainerPreview .card .right .price-section .div-price .price-discount{
+    color: rgba(235, 87, 87, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0.20px;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 8.5px;
+    text-decoration: line-through;
+}
+
+.rightContainerPreview .card .right .price-section .div-price .price{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    text-align: right;
+    vertical-align: middle;
+    letter-spacing: 0.20px;
+}
+
+.rightContainerPreview #imgContainer{
+    min-width: 281px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #f2f2f2;
+}
+
+.rightContainerPreview #imgContainer img{
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+}
+
 
 /* Footer */
 
@@ -2691,3 +2993,6 @@ footer .copy span{
     font-size: 19px;
     margin-right: 3px;
 }
+
+
+
