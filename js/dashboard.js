@@ -23,17 +23,15 @@ addButton.addEventListener('click', async function(e){
 
     if(name.value != "" && description.value.trim() != "" && price.value != "" && photo.value.trim() != ""){
         const newData = {
-            id: name.value,
             name: name.value,
+            photo: photo.value,
             rating: 0,
             reviewsCount: 0,
-            text: "",
             description: description.value,
             promo: null,
             discount: null,
             oldPrice: null,
             price: parseFloat(price.value),
-            photo: photo.value,
         }
 
         let {data, error} = await client.from('resultados').insert([newData])

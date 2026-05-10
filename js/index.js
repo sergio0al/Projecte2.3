@@ -5,11 +5,11 @@ let client = supabase.createClient(supabaseUrl, supabaseAnonKey);
 
 
 async function carregarSupaBase() {
-    let destinacionsRes = await client.from("destinacionsDestacades").select("*");
+    let destinacionsRes = await client.from("destinaciones").select("*");
     let destinacions = destinacionsRes.data || [];
     generarDestinacions(destinacions);
 
-    let ofertesRes = await client.from("ofertes").select("*");
+    let ofertesRes = await client.from("ofertas").select("*");
     let ofertes = ofertesRes.data || [];
     generarOfertes(ofertes);
 

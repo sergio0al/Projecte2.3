@@ -8,7 +8,7 @@ async function cargarSupaBase(){
     let myTrips = myTripsRes.data || []
     generarMyTrips(myTrips)
 
-    let recomendadosRes = await client.from("destinacionsDestacades").select("*")
+    let recomendadosRes = await client.from("recomendados").select("*")
     let recomendados = recomendadosRes.data || []
     generarRecomendados(recomendados)
 }
@@ -55,7 +55,7 @@ function generarRecomendados(recomendados){
         recomendadosContainer.innerHTML += `
         <article>
             <div class="history">
-                <img src="../images/locations/${recomendados[i].id}.png" alt="${recomendados[i].nom}">
+                <img src="/images/locations/${recomendados[i].id}.png" alt="${recomendados[i].nom}">
             </div>
             <h4 class="name">${recomendados[i].nom}</h4>
             <p class="properties">${recomendados[i].propietatsCount} properties</p>

@@ -33,7 +33,6 @@ function generarResultados(resultados){
                             <img src="images/icons/rating.png" alt="stars">
                             <p>${resultados[i].rating} (${resultados[i].reviewsCount} Reviews)</p>
                         </div>
-                        <p class="texto1">${resultados[i].text}</p>
                         <p class="texto2">${resultados[i].description}</p>
                         <a class="button" href="detail.html">See availability</a>
                     </div>
