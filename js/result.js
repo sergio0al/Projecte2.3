@@ -1,5 +1,5 @@
-let supabaseUrl = "https://ndxpcylicovkaaoxydhk.supabase.co";  
-let supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5keHBjeWxpY292a2Fhb3h5ZGhrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzYzNDMwMTAsImV4cCI6MjA5MTkxOTAxMH0.eCodC6u0WsPGsJk-CxBTRdyXA9E0xgwxLrWiNgjYWpE";
+let supabaseUrl = "https://sdnmzcykluevuzoxwagf.supabase.co";  
+let supabaseAnonKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNkbm16Y3lrbHVldnV6b3h3YWdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzg0MjE3ODcsImV4cCI6MjA5Mzk5Nzc4N30.k00P_lCAsmzbbN9QCy_whZS2SMbFAet7uuR8YohknPw";
 let client = supabase.createClient(supabaseUrl, supabaseAnonKey);
 
 let moreResults = document.querySelector("#moreResults")
